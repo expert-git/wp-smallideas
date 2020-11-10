@@ -1,0 +1,10 @@
+[22-Jan-2018 03:38:19 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[21-Mar-2018 11:43:57 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[18-Jan-2019 22:00:13 UTC] PHP Fatal error:  Call to undefined function do_action() in /home/smallid4/public_html/wp-content/themes/twentytwelve/footer.php on line 15
+[19-Jan-2019 21:30:21 UTC] PHP Fatal error:  Call to undefined function do_action() in /home/smallid4/public_html/wp-content/themes/twentytwelve/footer.php on line 15
+[22-Jan-2019 08:12:33 UTC] PHP Fatal error:  Call to undefined function do_action() in /home/smallid4/public_html/wp-content/themes/twentytwelve/footer.php on line 15
+[30-Mar-2019 13:45:33 UTC] PHP Fatal error:  Call to undefined function do_action() in /home/smallid4/public_html/wp-content/themes/twentytwelve/footer.php on line 15
+[30-Mar-2019 14:02:06 UTC] PHP Fatal error:  Call to undefined function do_action() in /home/smallid4/public_html/wp-content/themes/twentytwelve/footer.php on line 15
+[09-Apr-2019 03:41:07 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[02-Jul-2019 08:13:13 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[11-Jul-2019 12:57:45 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentytwelve/404.php on line 10

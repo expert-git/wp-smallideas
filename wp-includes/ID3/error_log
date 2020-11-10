@@ -1,0 +1,14 @@
+[30-Jul-2018 02:30:29 UTC] PHP Fatal error:  Class 'getid3_lib' not found in /home/smallid4/public_html/wp-includes/ID3/module.audio-video.asf.php on line 17
+[30-Jul-2018 02:30:29 UTC] PHP Fatal error:  Class 'getid3_handler' not found in /home/smallid4/public_html/wp-includes/ID3/module.audio-video.flv.php on line 76
+[30-Jul-2018 02:30:30 UTC] PHP Fatal error:  Class 'getid3_handler' not found in /home/smallid4/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[30-Jul-2018 02:30:30 UTC] PHP Fatal error:  Class 'getid3_handler' not found in /home/smallid4/public_html/wp-includes/ID3/module.tag.lyrics3.php on line 19
+[30-Jul-2018 02:30:31 UTC] PHP Fatal error:  Class 'getid3_lib' not found in /home/smallid4/public_html/wp-includes/ID3/module.audio.ogg.php on line 17
+[30-Jul-2018 02:30:32 UTC] PHP Fatal error:  Class 'getid3_lib' not found in /home/smallid4/public_html/wp-includes/ID3/module.tag.id3v2.php on line 17
+[30-Jul-2018 02:30:32 UTC] PHP Fatal error:  Class 'getid3_handler' not found in /home/smallid4/public_html/wp-includes/ID3/module.audio.dts.php on line 22
+[30-Jul-2018 02:30:33 UTC] PHP Fatal error:  Class 'getid3_handler' not found in /home/smallid4/public_html/wp-includes/ID3/module.tag.apetag.php on line 18
+[30-Jul-2018 02:30:33 UTC] PHP Fatal error:  Class 'getid3_handler' not found in /home/smallid4/public_html/wp-includes/ID3/module.audio-video.matroska.php on line 217
+[30-Jul-2018 02:30:34 UTC] PHP Fatal error:  Class 'getid3_handler' not found in /home/smallid4/public_html/wp-includes/ID3/module.tag.id3v1.php on line 19
+[30-Jul-2018 02:30:37 UTC] PHP Fatal error:  Class 'getid3_lib' not found in /home/smallid4/public_html/wp-includes/ID3/module.audio-video.quicktime.php on line 18
+[30-Jul-2018 02:30:42 UTC] PHP Fatal error:  Class 'getid3_lib' not found in /home/smallid4/public_html/wp-includes/ID3/module.audio-video.riff.php on line 26
+[30-Jul-2018 02:34:12 UTC] PHP Fatal error:  Class 'getid3_handler' not found in /home/smallid4/public_html/wp-includes/ID3/module.audio.mp3.php on line 26
+[30-Jul-2018 02:37:48 UTC] PHP Fatal error:  Class 'getid3_lib' not found in /home/smallid4/public_html/wp-includes/ID3/module.audio.flac.php on line 18

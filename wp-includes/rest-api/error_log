@@ -1,0 +1,1 @@
+[30-Jul-2018 02:20:51 UTC] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home/smallid4/public_html/wp-includes/rest-api/class-wp-rest-response.php on line 17

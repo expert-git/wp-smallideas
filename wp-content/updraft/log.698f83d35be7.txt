@@ -1,0 +1,1160 @@
+0000.000 (0) Opened log file at time: Sat, 16 Jun 2018 12:43:31 +0000 on https://smallideas.com.au
+0000.013 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.11.1 WP: 4.8.6 PHP: 5.6.36 (litespeed, Linux host3.easypeas.com 3.10.0-714.10.2.lve1.4.79.el7.x86_64 #1 SMP Thu Jan 4 13:30:50 EST 2018 x86_64) MySQL: 5.6.39 WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 25.8M | 26.3M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.058 (0) Free space on disk containing Updraft's temporary directory: 31616.8 MB
+0000.072 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.108 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.153 (0) Set semaphore last lock (fd) time to 2018-06-16 12:43:31
+0000.165 (0) Semaphore lock (fd) complete
+0000.647 (0) Backup run: resumption=0, nonce=698f83d35be7, begun at=1529153011 (0s ago), job type=backup
+0000.670 (0) Scheduling a resumption (1) after 300 seconds (1529153312) in case this run gets aborted
+0000.697 (0) Checking if we have a zip executable available
+0000.710 (0) Testing: /usr/bin/zip
+0000.723 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.732 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.745 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.758 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.767 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.780 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.796 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.812 (0) Working binary zip found: /usr/bin/zip
+0000.831 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.843 (0) Creation of backups of directories: beginning
+0000.875 (0) Beginning creation of dump of plugins (split every: 100 MB)
+0001.023 (0) Total entities for the zip file: 1453 directories, 9324 files (0 skipped as non-modified), 103.6 MB
+0001.035 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.046 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.060 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.074 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.088 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.097 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10 MB, 9324 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.327 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: size is now: 7.60 MB
+0001.351 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 600 files added (on-disk size: 7792.9 KB)
+0001.365 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 700 files added (on-disk size: 7792.9 KB)
+0001.376 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 800 files added (on-disk size: 7792.9 KB)
+0001.386 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 900 files added (on-disk size: 7792.9 KB)
+0001.402 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 1000 files added (on-disk size: 7792.9 KB)
+0001.417 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 MB, 9324 files batched, 501 (1002) added so far); re-opening (prior size: 7792.9 KB)
+0001.587 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: size is now: 10.60 MB
+0001.612 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 1100 files added (on-disk size: 10868.5 KB)
+0001.626 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 1200 files added (on-disk size: 10868.5 KB)
+0001.637 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 1300 files added (on-disk size: 10868.5 KB)
+0001.648 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 1400 files added (on-disk size: 10868.5 KB)
+0001.662 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 1500 files added (on-disk size: 10868.5 KB)
+0001.674 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 9324 files batched, 501 (1503) added so far); re-opening (prior size: 10868.5 KB)
+0001.897 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: size is now: 13.10 MB
+0001.936 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 1600 files added (on-disk size: 13458.6 KB)
+0001.946 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 1700 files added (on-disk size: 13458.6 KB)
+0001.957 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 1800 files added (on-disk size: 13458.6 KB)
+0001.971 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 1900 files added (on-disk size: 13458.6 KB)
+0001.985 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 2000 files added (on-disk size: 13458.6 KB)
+0001.995 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.6 MB, 9324 files batched, 501 (2004) added so far); re-opening (prior size: 13458.6 KB)
+0002.116 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 2100 files added (on-disk size: 15414.3 KB)
+0002.130 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 2200 files added (on-disk size: 15414.3 KB)
+0002.142 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 2300 files added (on-disk size: 15414.3 KB)
+0002.152 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 2400 files added (on-disk size: 15414.3 KB)
+0002.166 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 2500 files added (on-disk size: 15414.3 KB)
+0002.179 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.9 MB, 9324 files batched, 501 (2505) added so far); re-opening (prior size: 15414.3 KB)
+0002.479 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 2600 files added (on-disk size: 18003.5 KB)
+0002.491 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 2700 files added (on-disk size: 18003.5 KB)
+0002.502 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 2800 files added (on-disk size: 18003.5 KB)
+0002.514 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 2900 files added (on-disk size: 18003.5 KB)
+0002.528 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 3000 files added (on-disk size: 18003.5 KB)
+0002.540 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5 MB, 9324 files batched, 501 (3006) added so far); re-opening (prior size: 18003.5 KB)
+0002.781 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 3100 files added (on-disk size: 19664.2 KB)
+0002.793 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 3200 files added (on-disk size: 19664.2 KB)
+0002.803 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 3300 files added (on-disk size: 19664.2 KB)
+0002.816 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 3400 files added (on-disk size: 19664.2 KB)
+0002.830 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 3500 files added (on-disk size: 19664.2 KB)
+0002.842 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.9 MB, 9324 files batched, 501 (3507) added so far); re-opening (prior size: 19664.2 KB)
+0002.997 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 3600 files added (on-disk size: 21647.6 KB)
+0003.011 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 3700 files added (on-disk size: 21647.6 KB)
+0003.023 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 3800 files added (on-disk size: 21647.6 KB)
+0003.033 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 3900 files added (on-disk size: 21647.6 KB)
+0003.046 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 4000 files added (on-disk size: 21647.6 KB)
+0003.059 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.6 MB, 9324 files batched, 501 (4008) added so far); re-opening (prior size: 21647.6 KB)
+0003.301 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: size is now: 25.60 MB
+0003.336 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 4100 files added (on-disk size: 26216.8 KB)
+0003.348 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 4200 files added (on-disk size: 26216.8 KB)
+0003.359 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 4300 files added (on-disk size: 26216.8 KB)
+0003.371 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 4400 files added (on-disk size: 26216.8 KB)
+0003.387 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 4500 files added (on-disk size: 26216.8 KB)
+0003.398 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.1 MB, 9324 files batched, 501 (4509) added so far); re-opening (prior size: 26216.8 KB)
+0003.517 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 4600 files added (on-disk size: 26951.4 KB)
+0003.531 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 4700 files added (on-disk size: 26951.4 KB)
+0003.544 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 4800 files added (on-disk size: 26951.4 KB)
+0003.555 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 4900 files added (on-disk size: 26951.4 KB)
+0003.567 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 5000 files added (on-disk size: 26951.4 KB)
+0003.580 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.2 MB, 9324 files batched, 501 (5010) added so far); re-opening (prior size: 26951.4 KB)
+0003.665 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 5100 files added (on-disk size: 27186.3 KB)
+0003.678 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 5200 files added (on-disk size: 27186.3 KB)
+0003.692 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 5300 files added (on-disk size: 27186.3 KB)
+0003.704 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 5400 files added (on-disk size: 27186.3 KB)
+0003.714 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 5500 files added (on-disk size: 27186.3 KB)
+0003.725 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.7 MB, 9324 files batched, 501 (5511) added so far); re-opening (prior size: 27186.3 KB)
+0003.925 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 5600 files added (on-disk size: 28748.8 KB)
+0003.936 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 5700 files added (on-disk size: 28748.8 KB)
+0003.948 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 5800 files added (on-disk size: 28748.8 KB)
+0003.963 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 5900 files added (on-disk size: 28748.8 KB)
+0003.975 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 6000 files added (on-disk size: 28748.8 KB)
+0003.984 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.4 MB, 9324 files batched, 501 (6012) added so far); re-opening (prior size: 28748.8 KB)
+0004.186 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 6100 files added (on-disk size: 30889.7 KB)
+0004.198 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 6200 files added (on-disk size: 30889.7 KB)
+0004.207 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 6300 files added (on-disk size: 30889.7 KB)
+0004.218 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 6400 files added (on-disk size: 30889.7 KB)
+0004.232 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 6500 files added (on-disk size: 30889.7 KB)
+0004.242 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.2 MB, 9324 files batched, 501 (6513) added so far); re-opening (prior size: 30889.7 KB)
+0004.426 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 6600 files added (on-disk size: 33118.9 KB)
+0004.440 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 6700 files added (on-disk size: 33118.9 KB)
+0004.451 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 6800 files added (on-disk size: 33118.9 KB)
+0004.461 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 6900 files added (on-disk size: 33118.9 KB)
+0004.472 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 7000 files added (on-disk size: 33118.9 KB)
+0004.484 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.6 MB, 9324 files batched, 501 (7014) added so far); re-opening (prior size: 33118.9 KB)
+0004.748 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 7100 files added (on-disk size: 36928.3 KB)
+0004.762 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 7200 files added (on-disk size: 36928.3 KB)
+0004.773 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 7300 files added (on-disk size: 36928.3 KB)
+0004.783 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 7400 files added (on-disk size: 36928.3 KB)
+0004.794 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 7500 files added (on-disk size: 36928.3 KB)
+0004.806 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.6 MB, 9324 files batched, 501 (7515) added so far); re-opening (prior size: 36928.3 KB)
+0005.090 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 7600 files added (on-disk size: 39237.7 KB)
+0005.104 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 7700 files added (on-disk size: 39237.7 KB)
+0005.115 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 7800 files added (on-disk size: 39237.7 KB)
+0005.125 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 7900 files added (on-disk size: 39237.7 KB)
+0005.136 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 8000 files added (on-disk size: 39237.7 KB)
+0005.148 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.6 MB, 9324 files batched, 501 (8016) added so far); re-opening (prior size: 39237.7 KB)
+0005.282 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 8100 files added (on-disk size: 39958.6 KB)
+0005.294 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 8200 files added (on-disk size: 39958.6 KB)
+0005.307 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 8300 files added (on-disk size: 39958.6 KB)
+0005.319 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 8400 files added (on-disk size: 39958.6 KB)
+0005.328 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 8500 files added (on-disk size: 39958.6 KB)
+0005.340 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.3 MB, 9324 files batched, 501 (8517) added so far); re-opening (prior size: 39958.6 KB)
+0005.506 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 8600 files added (on-disk size: 41038.7 KB)
+0005.515 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 8700 files added (on-disk size: 41038.7 KB)
+0005.527 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 8800 files added (on-disk size: 41038.7 KB)
+0005.540 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 8900 files added (on-disk size: 41038.7 KB)
+0005.551 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 9000 files added (on-disk size: 41038.7 KB)
+0005.566 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.8 MB, 9324 files batched, 501 (9018) added so far); re-opening (prior size: 41038.7 KB)
+0005.908 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 9100 files added (on-disk size: 44683.9 KB)
+0005.921 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 9200 files added (on-disk size: 44683.9 KB)
+0005.932 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip.tmp: 9300 files added (on-disk size: 44683.9 KB)
+0006.559 (0) Created plugins zip (0) - 46200.8 KB in 5.6 s (8194.3 KB/s) (sha1: 758ac63454d9568aef04ef3563678cab41c665f4, sha256: 320382d314a121ea8c0dee089bd19a9db7512346abf215050d0645ce72c987c4)
+0006.583 (0) Beginning creation of dump of themes (split every: 100 MB)
+0006.640 (0) Total entities for the zip file: 117 directories, 558 files (0 skipped as non-modified), 8 MB
+0006.654 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0006.665 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0006.674 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0006.685 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0006.699 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0006.709 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.5 MB, 558 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0006.859 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-themes.zip.tmp: size is now: 5.00 MB
+0006.978 (0) Created themes zip (0) - 5270.8 KB in 0.4 s (14884.5 KB/s) (sha1: 25a7c54098ecf185a226170ae5f1b9308d1b90eb, sha256: 140587019426f9e07719a5c5b2f98863abeced1186d0edf3d9452ac5f4a3cb04)
+0007.000 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0007.007 (0) Looking for candidates to back up in: /home/smallid4/public_html/wp-content/uploads
+0007.017 (0) finding files: 2014: adding to list (1)
+0007.028 (0) finding files: 2017: adding to list (2)
+0007.038 (0) finding files: 2015: adding to list (3)
+0007.045 (0) finding files: woocommerce_uploads: adding to list (4)
+0007.055 (0) finding files: siteorigin-widgets: adding to list (5)
+0007.067 (0) finding files: js_composer: adding to list (6)
+0007.077 (0) finding files: 2016: adding to list (7)
+0007.085 (0) finding files: revslider: adding to list (8)
+0007.095 (0) finding files: wc-logs: adding to list (9)
+0007.107 (0) finding files: 2018: adding to list (10)
+0007.117 (0) Beginning creation of dump of uploads (split every: 100 MB)
+0007.216 (0) Total entities for the zip file: 216 directories, 6593 files (0 skipped as non-modified), 712.6 MB
+0007.230 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.242 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.251 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.4 MB, 6593 files batched, 276 (276) added so far); re-opening (prior size: 0 KB)
+0007.346 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads.zip.tmp: size is now: 25.50 MB
+0007.369 (0) A useful amount of data was added after this amount of zip processing: 0.7 s (normalised: 0.7 s, rate: 37055.6 KB/s)
+0007.387 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.70141696929932, normalised_time=0.69085293650423, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=104857600)
+0007.410 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads.zip.tmp: 300 files added (on-disk size: 26092.6 KB)
+0007.419 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads.zip.tmp: 400 files added (on-disk size: 26092.6 KB)
+0007.430 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads.zip.tmp: 500 files added (on-disk size: 26092.6 KB)
+0007.444 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads.zip.tmp: 600 files added (on-disk size: 26092.6 KB)
+0007.455 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads.zip.tmp: 700 files added (on-disk size: 26092.6 KB)
+0007.465 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (55.1 MB, 6593 files batched, 501 (777) added so far); re-opening (prior size: 26092.6 KB)
+0007.683 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads.zip.tmp: size is now: 80.70 MB
+0007.711 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads.zip.tmp: 800 files added (on-disk size: 82645.3 KB)
+0007.723 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads.zip.tmp: 900 files added (on-disk size: 82645.3 KB)
+0007.736 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (17.9 MB, 170 (947) files added so far); last ratio: 1; re-opening (prior size: 82645.3 KB)
+0007.878 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads.zip.tmp: size is now: 98.60 MB
+0007.898 (0) Zip size is at/near split limit (98.6 MB / 100 MB) - bumping index (from: 0)
+0008.751 (0) Created uploads zip (0) - 100965.2 KB in 0.8 s (134305.6 KB/s) (checksums: sha1: 4405c4d024c7d04b29183c62eaa90eb3f446b7ed, sha256: bee6051dcd0cfc697acda5d796fd25e5e6450032f22610743fdca0e6c5e46a33)
+0008.771 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0008.785 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0008.796 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0008.805 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0008.816 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0008.829 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (68.2 MB, 6593 files batched, 501 (1448) added so far); re-opening (prior size: 0 KB)
+0009.051 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip.tmp: size is now: 68.30 MB
+0009.083 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip.tmp: 1500 files added (on-disk size: 69966.6 KB)
+0009.093 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip.tmp: 1600 files added (on-disk size: 69966.6 KB)
+0009.102 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip.tmp: 1700 files added (on-disk size: 69966.6 KB)
+0009.114 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (28.9 MB, 257 (1705) files added so far); last ratio: 1; re-opening (prior size: 69966.6 KB)
+0012.040 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip.tmp: size is now: 97.30 MB
+0012.064 (0) Zip size is at/near split limit (97.3 MB / 100 MB) - bumping index (from: 1)
+0012.897 (0) Created uploads zip (1) - 99607.5 KB in 3.3 s (30066.3 KB/s) (checksums: sha1: b02243e7c9ecab65d12cb2b3072066fc6ca40d2a, sha256: 148a7d92c468d4614fd2bbbc1afbd1b1ffcffd33206669c4c2dd5bbf767842f1)
+0012.917 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads3.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0012.930 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads3.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0012.942 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads3.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0012.951 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads3.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0012.962 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads3.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0012.974 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (50.7 MB, 6593 files batched, 501 (2206) added so far); re-opening (prior size: 0 KB)
+0013.154 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads3.zip.tmp: size is now: 50.80 MB
+0013.176 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads3.zip.tmp: 2300 files added (on-disk size: 52003.5 KB)
+0013.190 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads3.zip.tmp: 2400 files added (on-disk size: 52003.5 KB)
+0013.201 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (44.8 MB, 233 (2439) files added so far); last ratio: 1; re-opening (prior size: 52003.5 KB)
+0017.268 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads3.zip.tmp: size is now: 95.60 MB
+0017.300 (0) Zip size is at/near split limit (95.6 MB / 100 MB) - bumping index (from: 2)
+0018.116 (0) Created uploads zip (2) - 97920.7 KB in 4.4 s (22238.1 KB/s) (checksums: sha1: 41aa444fb11766bd79ae7f6ad17ee83fb0836f38, sha256: ff4eecd82eaa800ad69a0ab11a2d3dbedf96e76902405c7e6be87003276e37a1)
+0018.141 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads4.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0018.151 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads4.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0018.160 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads4.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0018.174 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads4.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0018.187 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads4.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0018.196 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (75.8 MB, 6593 files batched, 501 (2940) added so far); re-opening (prior size: 0 KB)
+0019.664 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads4.zip.tmp: size is now: 75.90 MB
+0019.696 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads4.zip.tmp: 3000 files added (on-disk size: 77698.1 KB)
+0019.706 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads4.zip.tmp: 3100 files added (on-disk size: 77698.1 KB)
+0019.717 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (21.9 MB, 257 (3197) files added so far); last ratio: 1; re-opening (prior size: 77698.1 KB)
+0024.948 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads4.zip.tmp: size is now: 97.90 MB
+0024.978 (0) Zip size is at/near split limit (97.9 MB / 100 MB) - bumping index (from: 3)
+0025.839 (0) Created uploads zip (3) - 100216.3 KB in 6.9 s (14610.9 KB/s) (checksums: sha1: 124944ef00ac22eb7b0ff0633852e8f14ef207ba, sha256: 44236328d44acf005e373fbb464e999b2e37b62a9a41e2cf3b7eb3629c8c66af)
+0025.861 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads5.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0025.872 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads5.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0025.881 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads5.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0025.902 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads5.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0025.919 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads5.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0025.930 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (59.8 MB, 6593 files batched, 501 (3698) added so far); re-opening (prior size: 0 KB)
+0026.161 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads5.zip.tmp: size is now: 59.90 MB
+0026.187 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads5.zip.tmp: 3700 files added (on-disk size: 61350.8 KB)
+0026.201 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads5.zip.tmp: 3800 files added (on-disk size: 61350.8 KB)
+0026.212 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads5.zip.tmp: 3900 files added (on-disk size: 61350.8 KB)
+0026.221 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads5.zip.tmp: 4000 files added (on-disk size: 61350.8 KB)
+0026.232 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (37.4 MB, 369 (4067) files added so far); last ratio: 1; re-opening (prior size: 61350.8 KB)
+0030.724 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads5.zip.tmp: size is now: 97.40 MB
+0030.749 (0) Zip size is at/near split limit (97.4 MB / 100 MB) - bumping index (from: 4)
+0031.609 (0) Created uploads zip (4) - 99692.5 KB in 4.9 s (20295.6 KB/s) (checksums: sha1: d28faed9e78ea9ccba45ce32881975480a82200b, sha256: 92d76e5faf6c73f24e46756c3fa000a999307a372b78579e001b58b7e5244f0c)
+0031.629 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads6.zip.tmp: 4100 files added (on-disk size: 0 KB)
+0031.642 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads6.zip.tmp: 4200 files added (on-disk size: 0 KB)
+0031.651 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads6.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0031.661 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads6.zip.tmp: 4400 files added (on-disk size: 0 KB)
+0031.674 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads6.zip.tmp: 4500 files added (on-disk size: 0 KB)
+0031.687 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (73 MB, 6593 files batched, 501 (4568) added so far); re-opening (prior size: 0 KB)
+0032.590 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads6.zip.tmp: size is now: 73.10 MB
+0032.622 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads6.zip.tmp: 4600 files added (on-disk size: 74828.7 KB)
+0032.632 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads6.zip.tmp: 4700 files added (on-disk size: 74828.7 KB)
+0032.641 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads6.zip.tmp: 4800 files added (on-disk size: 74828.7 KB)
+0032.653 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (24.6 MB, 268 (4836) files added so far); last ratio: 1; re-opening (prior size: 74828.7 KB)
+0037.641 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads6.zip.tmp: size is now: 94.50 MB
+0037.680 (0) Zip size is at/near split limit (94.5 MB / 100 MB) - bumping index (from: 5)
+0038.508 (0) Created uploads zip (5) - 96817.3 KB in 6.1 s (15935.7 KB/s) (checksums: sha1: 452c0e48038f4d53cbbbcc3903c57ef9ea9a7a97, sha256: 30cda68f48222aa340ea17570daeb730cc02323082cf0169d88fbf197590f90d)
+0038.530 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip.tmp: 4900 files added (on-disk size: 0 KB)
+0038.539 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip.tmp: 5000 files added (on-disk size: 0 KB)
+0038.552 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip.tmp: 5100 files added (on-disk size: 0 KB)
+0038.565 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip.tmp: 5200 files added (on-disk size: 0 KB)
+0038.575 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip.tmp: 5300 files added (on-disk size: 0 KB)
+0038.583 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (37.1 MB, 6593 files batched, 501 (5337) added so far); re-opening (prior size: 0 KB)
+0038.814 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip.tmp: size is now: 36.00 MB
+0038.843 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip.tmp: 5400 files added (on-disk size: 36815.7 KB)
+0038.856 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip.tmp: 5500 files added (on-disk size: 36815.7 KB)
+0038.870 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip.tmp: 5600 files added (on-disk size: 36815.7 KB)
+0038.879 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip.tmp: 5700 files added (on-disk size: 36815.7 KB)
+0038.889 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip.tmp: 5800 files added (on-disk size: 36815.7 KB)
+0038.901 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (25.9 MB, 6593 files batched, 501 (5838) added so far); re-opening (prior size: 36815.7 KB)
+0040.267 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip.tmp: size is now: 61.90 MB
+0040.298 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip.tmp: 5900 files added (on-disk size: 63403.5 KB)
+0040.307 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip.tmp: 6000 files added (on-disk size: 63403.5 KB)
+0040.320 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip.tmp: 6100 files added (on-disk size: 63403.5 KB)
+0040.333 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip.tmp: 6200 files added (on-disk size: 63403.5 KB)
+0040.341 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (34.6 MB, 381 (6219) files added so far); last ratio: 1; re-opening (prior size: 63403.5 KB)
+0043.554 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip.tmp: size is now: 96.60 MB
+0043.587 (0) Zip size is at/near split limit (96.6 MB / 100 MB) - bumping index (from: 6)
+0044.429 (0) Created uploads zip (6) - 98942.5 KB in 5.1 s (19493.4 KB/s) (checksums: sha1: ec3785a871d160ecabb197f9ae77fae766d53def, sha256: d7f8e754f6385f990e18fafcbe71c4b060b1e75619f63c78d7751cf1f80c14e8)
+0044.467 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads8.zip.tmp: 6300 files added (on-disk size: 0 KB)
+0044.483 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads8.zip.tmp: 6400 files added (on-disk size: 0 KB)
+0044.497 (0) Zip: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads8.zip.tmp: 6500 files added (on-disk size: 0 KB)
+0044.616 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads8.zip.tmp: size is now: 31.80 MB
+0044.937 (0) Created uploads zip (7) - 32604.7 KB in 0.5 s (67878.2 KB/s) (sha1: 6ef6561e9f490639c75ee8649eb0a2418e7aea58, sha256: e2920d02fb81f70275b5a7a74bf61a2767bbb234a4478f6079e43874fc4497d1)
+0044.959 (0) Beginning backup of other directories found in the content directory (index: 0)
+0044.972 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0044.981 (0) Looking for candidates to back up in: /home/smallid4/public_html/wp-content
+0044.992 (0) finding files: index.php: adding to list (1)
+0045.007 (0) finding files: themes: skipping: this is the themes directory
+0045.019 (0) finding files: updraft: skipping: this is the updraft directory
+0045.027 (0) finding files: plugins: skipping: this is the plugins directory
+0045.038 (0) finding files: advanced-cache.php: adding to list (2)
+0045.051 (0) finding files: upgrade: skipping: excluded by options
+0045.064 (0) finding files: uploads: skipping: this is the uploads directory
+0045.073 (0) finding files: wp-cache-config.php: adding to list (3)
+0045.128 (0) Total entities for the zip file: 0 directories, 3 files (0 skipped as non-modified), 0 MB
+0045.146 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-others.zip.tmp: size is now: 0.00 MB
+0045.198 (0) Created others zip (0) - 2.8 KB in 0.1 s (33.6 KB/s) (sha1: 1ef500c8cfdf3e47e37be093a30e861206e92fca, sha256: 4c96d5466609b14097c50f2e5b46f14c19531a0168e4ba24e09d7e4759433e45)
+0045.244 (0) Saving backup status to database (elements: 15)
+0045.268 (0) Beginning creation of database dump (WordPress DB)
+0045.294 (0) Testing: /usr/bin/mysqldump
+0045.312 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1189 bytes total)
+0045.323 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0045.371 (0) Table wp_options: Total expected rows (approximate): 9390
+0045.484 (0) Table wp_options: binary mysqldump finished (writes: 35) in 0.10 seconds
+0045.497 (0) Table wp_options: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_options.table.gz - 595.7 KB)
+0045.532 (0) Table wp_users: Total expected rows (approximate): 934
+0045.631 (0) Table wp_users: Total rows added: 3142 in 0.08 seconds
+0046.102 (0) Table wp_users: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_users.table.gz - 191.5 KB)
+0046.143 (0) Table wp_usermeta: Total expected rows (approximate): 29275
+0046.353 (0) Table wp_usermeta: binary mysqldump finished (writes: 37) in 0.20 seconds
+0046.382 (0) Table wp_usermeta: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_usermeta.table.gz - 1058.1 KB)
+0046.418 (0) Table wp_commentmeta: Total expected rows (approximate): 3432
+0046.461 (0) Table wp_commentmeta: Total rows added: 3432 in 0.03 seconds
+0046.477 (0) Table wp_commentmeta: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_commentmeta.table.gz - 17.2 KB)
+0046.509 (0) Table wp_comments: Total expected rows (approximate): 12407
+0046.655 (0) Table wp_comments: binary mysqldump finished (writes: 52) in 0.13 seconds
+0046.666 (0) Table wp_comments: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_comments.table.gz - 407.5 KB)
+0046.707 (0) Table wp_links: Total expected rows (approximate): 0
+0046.717 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0046.726 (0) Table wp_links: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_links.table.gz - 0.4 KB)
+0046.766 (0) Table wp_postmeta: Total expected rows (approximate): 240541
+0046.791 (0) [Warning] Table wp_postmeta has very many rows (240541) - we hope your web hosting company gives you enough resources to dump out that table in the backup If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+0047.953 (0) Table wp_postmeta: binary mysqldump finished (writes: 67) in 1.15 seconds
+0047.989 (0) Table wp_postmeta: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_postmeta.table.gz - 5182.7 KB)
+0048.024 (0) Table wp_posts: Total expected rows (approximate): 5372
+0049.113 (0) Table wp_posts: Total rows added: 16155 in 1.08 seconds
+0049.136 (0) Table wp_posts: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_posts.table.gz - 1343 KB)
+0049.173 (0) Table wp_term_relationships: Total expected rows (approximate): 1904
+0049.196 (0) Table wp_term_relationships: Total rows added: 2141 in 0.01 seconds
+0049.206 (0) Table wp_term_relationships: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_term_relationships.table.gz - 5.9 KB)
+0049.243 (0) Table wp_term_taxonomy: Total expected rows (approximate): 49
+0049.255 (0) Table wp_term_taxonomy: Total rows added: 51 in 0.00 seconds
+0049.265 (0) Table wp_term_taxonomy: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_term_taxonomy.table.gz - 2 KB)
+0049.298 (0) Table wp_termmeta: Total expected rows (approximate): 60
+0049.309 (0) Table wp_termmeta: Total rows added: 60 in 0.00 seconds
+0049.321 (0) Table wp_termmeta: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_termmeta.table.gz - 0.8 KB)
+0049.357 (0) Table wp_terms: Total expected rows (approximate): 49
+0049.370 (0) Table wp_terms: Total rows added: 51 in 0.00 seconds
+0049.380 (0) Table wp_terms: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_terms.table.gz - 1.2 KB)
+0049.412 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 121125
+0049.602 (0) Table wp_woocommerce_order_itemmeta: binary mysqldump finished (writes: 36) in 0.18 seconds
+0049.614 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_order_itemmeta.table.gz - 661.4 KB)
+0049.658 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 11308
+0049.700 (0) Table wp_woocommerce_payment_tokenmeta: binary mysqldump finished (writes: 32) in 0.02 seconds
+0049.712 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 72.8 KB)
+0049.748 (0) Table wp_ac_abandoned_cart_history_lite: Total expected rows (approximate): 1091
+0049.783 (0) Table wp_ac_abandoned_cart_history_lite: Total rows added: 1091 in 0.02 seconds
+0049.793 (0) Table wp_ac_abandoned_cart_history_lite: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_ac_abandoned_cart_history_lite.table.gz - 24.3 KB)
+0049.832 (0) Table wp_ac_email_templates_lite: Total expected rows (approximate): 1
+0049.841 (0) Table wp_ac_email_templates_lite: Total rows added: 1 in 0.00 seconds
+0049.853 (0) Table wp_ac_email_templates_lite: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_ac_email_templates_lite.table.gz - 1 KB)
+0049.888 (0) Table wp_ac_guest_abandoned_cart_history_lite: Total expected rows (approximate): 85
+0049.901 (0) Table wp_ac_guest_abandoned_cart_history_lite: Total rows added: 85 in 0.00 seconds
+0049.915 (0) Table wp_ac_guest_abandoned_cart_history_lite: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_ac_guest_abandoned_cart_history_lite.table.gz - 3 KB)
+0049.948 (0) Table wp_ac_sent_history_lite: Total expected rows (approximate): 87
+0049.964 (0) Table wp_ac_sent_history_lite: Total rows added: 87 in 0.00 seconds
+0049.976 (0) Table wp_ac_sent_history_lite: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_ac_sent_history_lite.table.gz - 2.3 KB)
+0050.012 (0) Table wp_ak_params: Total expected rows (approximate): 1
+0050.024 (0) Table wp_ak_params: Total rows added: 1 in 0.00 seconds
+0050.032 (0) Table wp_ak_params: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_ak_params.table.gz - 0.3 KB)
+0050.073 (0) Table wp_ak_profiles: Total expected rows (approximate): 1
+0050.084 (0) Table wp_ak_profiles: Total rows added: 1 in 0.00 seconds
+0050.095 (0) Table wp_ak_profiles: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_ak_profiles.table.gz - 2.5 KB)
+0050.129 (0) Table wp_ak_stats: Total expected rows (approximate): 1
+0050.144 (0) Table wp_ak_stats: Total rows added: 1 in 0.00 seconds
+0050.156 (0) Table wp_ak_stats: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_ak_stats.table.gz - 0.7 KB)
+0050.195 (0) Table wp_ak_storage: Total expected rows (approximate): 2
+0050.208 (0) Table wp_ak_storage: Total rows added: 2 in 0.00 seconds
+0050.219 (0) Table wp_ak_storage: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_ak_storage.table.gz - 1.9 KB)
+0050.256 (0) Table wp_ak_users: Total expected rows (approximate): 0
+0050.270 (0) Table wp_ak_users: Total rows added: 0 in 0.00 seconds
+0050.281 (0) Table wp_ak_users: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_ak_users.table.gz - 0.3 KB)
+0050.316 (0) Table wp_akeeba_common: Total expected rows (approximate): 3
+0050.325 (0) Table wp_akeeba_common: Total rows added: 3 in 0.00 seconds
+0050.335 (0) Table wp_akeeba_common: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_akeeba_common.table.gz - 0.4 KB)
+0050.373 (0) Table wp_cb_contact_form: Total expected rows (approximate): 1
+0050.386 (0) Table wp_cb_contact_form: Total rows added: 1 in 0.00 seconds
+0050.399 (0) Table wp_cb_contact_form: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_cb_contact_form.table.gz - 0.3 KB)
+0050.430 (0) Table wp_cb_create_control_form: Total expected rows (approximate): 1
+0050.444 (0) Table wp_cb_create_control_form: Total rows added: 1 in 0.00 seconds
+0050.455 (0) Table wp_cb_create_control_form: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_cb_create_control_form.table.gz - 0.4 KB)
+0050.494 (0) Table wp_cb_dynamic_settings: Total expected rows (approximate): 7
+0050.505 (0) Table wp_cb_dynamic_settings: Total rows added: 7 in 0.00 seconds
+0050.513 (0) Table wp_cb_dynamic_settings: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_cb_dynamic_settings.table.gz - 0.4 KB)
+0050.549 (0) Table wp_cb_email_template_admin: Total expected rows (approximate): 2
+0050.561 (0) Table wp_cb_email_template_admin: Total rows added: 2 in 0.00 seconds
+0050.572 (0) Table wp_cb_email_template_admin: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_cb_email_template_admin.table.gz - 0.7 KB)
+0050.612 (0) Table wp_cb_form_settings_table: Total expected rows (approximate): 6
+0050.622 (0) Table wp_cb_form_settings_table: Total rows added: 6 in 0.00 seconds
+0050.862 (0) Table wp_cb_form_settings_table: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_cb_form_settings_table.table.gz - 0.5 KB)
+0051.677 (0) Table wp_cb_frontend_data_table: Total expected rows (approximate): 0
+0051.688 (0) Table wp_cb_frontend_data_table: Total rows added: 0 in 0.00 seconds
+0051.698 (0) Table wp_cb_frontend_data_table: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_cb_frontend_data_table.table.gz - 0.3 KB)
+0051.737 (0) Table wp_cb_frontend_forms_table: Total expected rows (approximate): 0
+0051.748 (0) Table wp_cb_frontend_forms_table: Total rows added: 0 in 0.00 seconds
+0051.761 (0) Table wp_cb_frontend_forms_table: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_cb_frontend_forms_table.table.gz - 0.3 KB)
+0051.794 (0) Table wp_cb_layout_settings_table: Total expected rows (approximate): 50
+0051.809 (0) Table wp_cb_layout_settings_table: Total rows added: 50 in 0.00 seconds
+0051.822 (0) Table wp_cb_layout_settings_table: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_cb_layout_settings_table.table.gz - 0.8 KB)
+0051.855 (0) Table wp_cb_licensing: Total expected rows (approximate): 1
+0051.869 (0) Table wp_cb_licensing: Total rows added: 1 in 0.00 seconds
+0051.879 (0) Table wp_cb_licensing: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_cb_licensing.table.gz - 0.4 KB)
+0051.915 (0) Table wp_cb_roles_capability: Total expected rows (approximate): 15
+0051.924 (0) Table wp_cb_roles_capability: Total rows added: 15 in 0.00 seconds
+0051.934 (0) Table wp_cb_roles_capability: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_cb_roles_capability.table.gz - 0.4 KB)
+0051.973 (0) Table wp_contactformmaker: Total expected rows (approximate): 9
+0051.985 (0) Table wp_contactformmaker: Total rows added: 9 in 0.00 seconds
+0051.999 (0) Table wp_contactformmaker: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_contactformmaker.table.gz - 6.6 KB)
+0052.031 (0) Table wp_contactformmaker_blocked: Total expected rows (approximate): 0
+0052.045 (0) Table wp_contactformmaker_blocked: Total rows added: 0 in 0.00 seconds
+0052.058 (0) Table wp_contactformmaker_blocked: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_contactformmaker_blocked.table.gz - 0.3 KB)
+0052.091 (0) Table wp_contactformmaker_submits: Total expected rows (approximate): 0
+0052.105 (0) Table wp_contactformmaker_submits: Total rows added: 0 in 0.00 seconds
+0052.114 (0) Table wp_contactformmaker_submits: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_contactformmaker_submits.table.gz - 0.3 KB)
+0052.152 (0) Table wp_contactformmaker_themes: Total expected rows (approximate): 37
+0052.171 (0) Table wp_contactformmaker_themes: Total rows added: 37 in 0.01 seconds
+0052.181 (0) Table wp_contactformmaker_themes: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_contactformmaker_themes.table.gz - 22.7 KB)
+0052.217 (0) Table wp_contactformmaker_views: Total expected rows (approximate): 0
+0052.227 (0) Table wp_contactformmaker_views: Total rows added: 0 in 0.00 seconds
+0052.241 (0) Table wp_contactformmaker_views: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_contactformmaker_views.table.gz - 0.3 KB)
+0052.275 (0) Table wp_failed_jobs: Total expected rows (approximate): 0
+0052.288 (0) Table wp_failed_jobs: Total rows added: 0 in 0.00 seconds
+0052.301 (0) Table wp_failed_jobs: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_failed_jobs.table.gz - 0.3 KB)
+0052.333 (0) Table wp_litespeed_optimizer: Total expected rows (approximate): 42
+0052.349 (0) Table wp_litespeed_optimizer: Total rows added: 42 in 0.00 seconds
+0052.358 (0) Table wp_litespeed_optimizer: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_litespeed_optimizer.table.gz - 1.8 KB)
+0052.395 (0) Table wp_mailchimp_carts: Total expected rows (approximate): 408
+0052.413 (0) Table wp_mailchimp_carts: Total rows added: 408 in 0.01 seconds
+0052.425 (0) Table wp_mailchimp_carts: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_mailchimp_carts.table.gz - 17.6 KB)
+0052.462 (0) Table wp_queue: Total expected rows (approximate): 51571
+0052.913 (0) Table wp_queue: binary mysqldump finished (writes: 62) in 0.44 seconds
+0052.934 (0) Table wp_queue: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_queue.table.gz - 1190.6 KB)
+0052.967 (0) Table wp_redirection_404: Total expected rows (approximate): 28618
+0053.060 (0) Table wp_redirection_404: binary mysqldump finished (writes: 39) in 0.08 seconds
+0053.070 (0) Table wp_redirection_404: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_redirection_404.table.gz - 272.2 KB)
+0053.105 (0) Table wp_redirection_groups: Total expected rows (approximate): 2
+0053.117 (0) Table wp_redirection_groups: Total rows added: 2 in 0.00 seconds
+0053.126 (0) Table wp_redirection_groups: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_redirection_groups.table.gz - 0.5 KB)
+0053.162 (0) Table wp_redirection_items: Total expected rows (approximate): 92
+0053.174 (0) Table wp_redirection_items: Total rows added: 92 in 0.00 seconds
+0053.186 (0) Table wp_redirection_items: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_redirection_items.table.gz - 3.2 KB)
+0053.218 (0) Table wp_redirection_logs: Total expected rows (approximate): 104
+0053.234 (0) Table wp_redirection_logs: Total rows added: 104 in 0.00 seconds
+0053.247 (0) Table wp_redirection_logs: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_redirection_logs.table.gz - 3.5 KB)
+0053.279 (0) Table wp_revslider_css: Total expected rows (approximate): 112
+0053.296 (0) Table wp_revslider_css: Total rows added: 112 in 0.00 seconds
+0053.305 (0) Table wp_revslider_css: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_revslider_css.table.gz - 5 KB)
+0053.341 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0053.351 (0) Table wp_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0053.361 (0) Table wp_revslider_layer_animations: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_revslider_layer_animations.table.gz - 0.3 KB)
+0053.398 (0) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0053.408 (0) Table wp_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0053.423 (0) Table wp_revslider_navigations: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_revslider_navigations.table.gz - 0.3 KB)
+0053.456 (0) Table wp_revslider_sliders: Total expected rows (approximate): 1
+0053.469 (0) Table wp_revslider_sliders: Total rows added: 1 in 0.00 seconds
+0053.483 (0) Table wp_revslider_sliders: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_revslider_sliders.table.gz - 2.4 KB)
+0053.516 (0) Table wp_revslider_slides: Total expected rows (approximate): 1
+0053.531 (0) Table wp_revslider_slides: Total rows added: 1 in 0.00 seconds
+0053.540 (0) Table wp_revslider_slides: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_revslider_slides.table.gz - 4.4 KB)
+0053.577 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+0053.587 (0) Table wp_revslider_static_slides: Total rows added: 0 in 0.00 seconds
+0053.597 (0) Table wp_revslider_static_slides: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_revslider_static_slides.table.gz - 0.3 KB)
+0053.636 (0) Table wp_say_what_strings: Total expected rows (approximate): 1
+0053.646 (0) Table wp_say_what_strings: Total rows added: 1 in 0.00 seconds
+0053.660 (0) Table wp_say_what_strings: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_say_what_strings.table.gz - 0.4 KB)
+0053.695 (0) Table wp_sg_age_restriction_popup: Total expected rows (approximate): 0
+0053.709 (0) Table wp_sg_age_restriction_popup: Total rows added: 0 in 0.00 seconds
+0053.723 (0) Table wp_sg_age_restriction_popup: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_age_restriction_popup.table.gz - 0.3 KB)
+0053.757 (0) Table wp_sg_contact_form_popup: Total expected rows (approximate): 0
+0053.771 (0) Table wp_sg_contact_form_popup: Total rows added: 0 in 0.00 seconds
+0053.781 (0) Table wp_sg_contact_form_popup: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_contact_form_popup.table.gz - 0.3 KB)
+0053.819 (0) Table wp_sg_countdown_popup: Total expected rows (approximate): 0
+0053.831 (0) Table wp_sg_countdown_popup: Total rows added: 0 in 0.00 seconds
+0053.841 (0) Table wp_sg_countdown_popup: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_countdown_popup.table.gz - 0.3 KB)
+0053.879 (0) Table wp_sg_fblike_popup: Total expected rows (approximate): 0
+0053.890 (0) Table wp_sg_fblike_popup: Total rows added: 0 in 0.00 seconds
+0053.903 (0) Table wp_sg_fblike_popup: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_fblike_popup.table.gz - 0.3 KB)
+0053.937 (0) Table wp_sg_html_popup: Total expected rows (approximate): 2
+0053.951 (0) Table wp_sg_html_popup: Total rows added: 2 in 0.00 seconds
+0053.965 (0) Table wp_sg_html_popup: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_html_popup.table.gz - 0.6 KB)
+0053.999 (0) Table wp_sg_iframe_popup: Total expected rows (approximate): 0
+0054.013 (0) Table wp_sg_iframe_popup: Total rows added: 0 in 0.00 seconds
+0054.023 (0) Table wp_sg_iframe_popup: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_iframe_popup.table.gz - 0.2 KB)
+0054.061 (0) Table wp_sg_image_popup: Total expected rows (approximate): 0
+0054.071 (0) Table wp_sg_image_popup: Total rows added: 0 in 0.00 seconds
+0054.081 (0) Table wp_sg_image_popup: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_image_popup.table.gz - 0.3 KB)
+0054.119 (0) Table wp_sg_popup: Total expected rows (approximate): 2
+0054.129 (0) Table wp_sg_popup: Total rows added: 2 in 0.00 seconds
+0054.143 (0) Table wp_sg_popup: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_popup.table.gz - 1.7 KB)
+0054.176 (0) Table wp_sg_popup_addons: Total expected rows (approximate): 0
+0054.190 (0) Table wp_sg_popup_addons: Total rows added: 1 in 0.00 seconds
+0054.203 (0) Table wp_sg_popup_addons: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_popup_addons.table.gz - 0.5 KB)
+0054.237 (0) Table wp_sg_popup_addons_connection: Total expected rows (approximate): 0
+0054.250 (0) Table wp_sg_popup_addons_connection: Total rows added: 0 in 0.00 seconds
+0054.260 (0) Table wp_sg_popup_addons_connection: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_popup_addons_connection.table.gz - 0.3 KB)
+0054.298 (0) Table wp_sg_popup_in_pages: Total expected rows (approximate): 0
+0054.310 (0) Table wp_sg_popup_in_pages: Total rows added: 1 in 0.00 seconds
+0054.320 (0) Table wp_sg_popup_in_pages: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_popup_in_pages.table.gz - 0.3 KB)
+0054.358 (0) Table wp_sg_popup_settings: Total expected rows (approximate): 0
+0054.369 (0) Table wp_sg_popup_settings: Total rows added: 1 in 0.00 seconds
+0054.383 (0) Table wp_sg_popup_settings: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_popup_settings.table.gz - 0.4 KB)
+0054.417 (0) Table wp_sg_shortCode_popup: Total expected rows (approximate): 0
+0054.431 (0) Table wp_sg_shortCode_popup: Total rows added: 0 in 0.00 seconds
+0054.445 (0) Table wp_sg_shortCode_popup: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_shortCode_popup.table.gz - 0.2 KB)
+0054.478 (0) Table wp_sg_social_popup: Total expected rows (approximate): 0
+0054.492 (0) Table wp_sg_social_popup: Total rows added: 0 in 0.00 seconds
+0054.501 (0) Table wp_sg_social_popup: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_social_popup.table.gz - 0.3 KB)
+0054.536 (0) Table wp_sg_subscribers: Total expected rows (approximate): 0
+0054.547 (0) Table wp_sg_subscribers: Total rows added: 0 in 0.00 seconds
+0054.556 (0) Table wp_sg_subscribers: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_subscribers.table.gz - 0.3 KB)
+0054.592 (0) Table wp_sg_subscription_error_log: Total expected rows (approximate): 0
+0054.602 (0) Table wp_sg_subscription_error_log: Total rows added: 0 in 0.00 seconds
+0054.615 (0) Table wp_sg_subscription_error_log: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_subscription_error_log.table.gz - 0.3 KB)
+0054.650 (0) Table wp_sg_subscription_popup: Total expected rows (approximate): 0
+0054.664 (0) Table wp_sg_subscription_popup: Total rows added: 0 in 0.00 seconds
+0054.677 (0) Table wp_sg_subscription_popup: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_subscription_popup.table.gz - 0.3 KB)
+0054.721 (0) Table wp_sg_video_popup: Total expected rows (approximate): 0
+0054.731 (0) Table wp_sg_video_popup: Total rows added: 0 in 0.00 seconds
+0054.740 (0) Table wp_sg_video_popup: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_video_popup.table.gz - 0.3 KB)
+0054.777 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0054.786 (0) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0054.799 (0) Table wp_woocommerce_api_keys: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0054.831 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 2
+0054.844 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 2 in 0.00 seconds
+0054.857 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0054.888 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0054.902 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0054.912 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0054.949 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0054.959 (0) Table wp_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0054.968 (0) Table wp_woocommerce_log: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0055.002 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 17897
+0055.047 (0) Table wp_woocommerce_order_items: binary mysqldump finished (writes: 31) in 0.03 seconds
+0055.061 (0) Table wp_woocommerce_order_items: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_order_items.table.gz - 91.6 KB)
+0055.093 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 2827
+0055.148 (0) Table wp_woocommerce_payment_tokens: Total rows added: 2827 in 0.04 seconds
+0055.161 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_payment_tokens.table.gz - 49.5 KB)
+0055.194 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 90
+0055.211 (0) Table wp_woocommerce_sessions: Total rows added: 90 in 0.00 seconds
+0055.221 (0) Table wp_woocommerce_sessions: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_sessions.table.gz - 11.5 KB)
+0055.256 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 1
+0055.267 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 1 in 0.00 seconds
+0055.276 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0055.313 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 2
+0055.323 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 2 in 0.00 seconds
+0055.336 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0055.369 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 1
+0055.382 (0) Table wp_woocommerce_shipping_zones: Total rows added: 1 in 0.00 seconds
+0055.395 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_shipping_zones.table.gz - 0.4 KB)
+0055.433 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0055.447 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0055.456 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.3 KB)
+0055.493 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0055.503 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0055.512 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0055.549 (0) Table wp_woocommerce_termmeta: Total expected rows (approximate): 0
+0055.558 (0) Table wp_woocommerce_termmeta: Total rows added: 0 in 0.00 seconds
+0055.572 (0) Table wp_woocommerce_termmeta: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_termmeta.table.gz - 0.3 KB)
+0055.604 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 361
+0055.622 (0) Table wp_yoast_seo_links: Total rows added: 361 in 0.00 seconds
+0055.636 (0) Table wp_yoast_seo_links: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_yoast_seo_links.table.gz - 5.2 KB)
+0055.669 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 389
+0055.686 (0) Table wp_yoast_seo_meta: Total rows added: 389 in 0.00 seconds
+0055.696 (0) Table wp_yoast_seo_meta: finishing file (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_yoast_seo_meta.table.gz - 1.6 KB)
+0055.719 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_options.table.gz (1/87): adding to final database dump
+0055.816 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_users.table.gz (2/87): adding to final database dump
+0055.853 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_usermeta.table.gz (3/87): adding to final database dump
+0056.018 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_commentmeta.table.gz (4/87): adding to final database dump
+0056.042 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_comments.table.gz (5/87): adding to final database dump
+0056.136 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_links.table.gz (6/87): adding to final database dump
+0056.146 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_postmeta.table.gz (7/87): adding to final database dump
+0057.026 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_posts.table.gz (8/87): adding to final database dump
+0057.295 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_term_relationships.table.gz (9/87): adding to final database dump
+0057.318 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_term_taxonomy.table.gz (10/87): adding to final database dump
+0057.331 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_termmeta.table.gz (11/87): adding to final database dump
+0057.341 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_terms.table.gz (12/87): adding to final database dump
+0057.350 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_order_itemmeta.table.gz (13/87): adding to final database dump
+0057.501 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_payment_tokenmeta.table.gz (14/87): adding to final database dump
+0057.527 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_ac_abandoned_cart_history_lite.table.gz (15/87): adding to final database dump
+0057.543 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_ac_email_templates_lite.table.gz (16/87): adding to final database dump
+0057.551 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_ac_guest_abandoned_cart_history_lite.table.gz (17/87): adding to final database dump
+0057.561 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_ac_sent_history_lite.table.gz (18/87): adding to final database dump
+0057.574 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_ak_params.table.gz (19/87): adding to final database dump
+0057.584 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_ak_profiles.table.gz (20/87): adding to final database dump
+0057.592 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_ak_stats.table.gz (21/87): adding to final database dump
+0057.602 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_ak_storage.table.gz (22/87): adding to final database dump
+0057.614 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_ak_users.table.gz (23/87): adding to final database dump
+0057.625 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_akeeba_common.table.gz (24/87): adding to final database dump
+0057.633 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_cb_contact_form.table.gz (25/87): adding to final database dump
+0057.643 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_cb_create_control_form.table.gz (26/87): adding to final database dump
+0057.655 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_cb_dynamic_settings.table.gz (27/87): adding to final database dump
+0057.665 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_cb_email_template_admin.table.gz (28/87): adding to final database dump
+0057.673 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_cb_form_settings_table.table.gz (29/87): adding to final database dump
+0057.684 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_cb_frontend_data_table.table.gz (30/87): adding to final database dump
+0057.696 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_cb_frontend_forms_table.table.gz (31/87): adding to final database dump
+0057.707 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_cb_layout_settings_table.table.gz (32/87): adding to final database dump
+0057.715 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_cb_licensing.table.gz (33/87): adding to final database dump
+0057.725 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_cb_roles_capability.table.gz (34/87): adding to final database dump
+0057.738 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_contactformmaker.table.gz (35/87): adding to final database dump
+0057.749 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_contactformmaker_blocked.table.gz (36/87): adding to final database dump
+0057.757 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_contactformmaker_submits.table.gz (37/87): adding to final database dump
+0057.767 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_contactformmaker_themes.table.gz (38/87): adding to final database dump
+0057.786 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_contactformmaker_views.table.gz (39/87): adding to final database dump
+0057.796 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_failed_jobs.table.gz (40/87): adding to final database dump
+0057.804 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_litespeed_optimizer.table.gz (41/87): adding to final database dump
+0057.814 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_mailchimp_carts.table.gz (42/87): adding to final database dump
+0057.830 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_queue.table.gz (43/87): adding to final database dump
+0058.137 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_redirection_404.table.gz (44/87): adding to final database dump
+0058.207 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_redirection_groups.table.gz (45/87): adding to final database dump
+0058.219 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_redirection_items.table.gz (46/87): adding to final database dump
+0058.230 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_redirection_logs.table.gz (47/87): adding to final database dump
+0058.240 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_revslider_css.table.gz (48/87): adding to final database dump
+0058.251 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_revslider_layer_animations.table.gz (49/87): adding to final database dump
+0058.263 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_revslider_navigations.table.gz (50/87): adding to final database dump
+0058.274 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_revslider_sliders.table.gz (51/87): adding to final database dump
+0058.282 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_revslider_slides.table.gz (52/87): adding to final database dump
+0058.293 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_revslider_static_slides.table.gz (53/87): adding to final database dump
+0058.306 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_say_what_strings.table.gz (54/87): adding to final database dump
+0058.316 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_age_restriction_popup.table.gz (55/87): adding to final database dump
+0058.325 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_contact_form_popup.table.gz (56/87): adding to final database dump
+0058.335 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_countdown_popup.table.gz (57/87): adding to final database dump
+0058.347 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_fblike_popup.table.gz (58/87): adding to final database dump
+0058.357 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_html_popup.table.gz (59/87): adding to final database dump
+0058.365 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_iframe_popup.table.gz (60/87): adding to final database dump
+0058.376 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_image_popup.table.gz (61/87): adding to final database dump
+0058.388 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_popup.table.gz (62/87): adding to final database dump
+0058.398 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_popup_addons.table.gz (63/87): adding to final database dump
+0058.406 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_popup_addons_connection.table.gz (64/87): adding to final database dump
+0058.416 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_popup_in_pages.table.gz (65/87): adding to final database dump
+0058.428 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_popup_settings.table.gz (66/87): adding to final database dump
+0058.438 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_shortCode_popup.table.gz (67/87): adding to final database dump
+0058.446 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_social_popup.table.gz (68/87): adding to final database dump
+0058.456 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_subscribers.table.gz (69/87): adding to final database dump
+0058.468 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_subscription_error_log.table.gz (70/87): adding to final database dump
+0058.478 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_subscription_popup.table.gz (71/87): adding to final database dump
+0058.487 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_sg_video_popup.table.gz (72/87): adding to final database dump
+0058.496 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_api_keys.table.gz (73/87): adding to final database dump
+0058.508 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_attribute_taxonomies.table.gz (74/87): adding to final database dump
+0058.519 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (75/87): adding to final database dump
+0058.527 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_log.table.gz (76/87): adding to final database dump
+0058.537 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_order_items.table.gz (77/87): adding to final database dump
+0058.565 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_payment_tokens.table.gz (78/87): adding to final database dump
+0058.588 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_sessions.table.gz (79/87): adding to final database dump
+0058.599 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_shipping_zone_locations.table.gz (80/87): adding to final database dump
+0058.609 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_shipping_zone_methods.table.gz (81/87): adding to final database dump
+0058.621 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_shipping_zones.table.gz (82/87): adding to final database dump
+0058.631 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_tax_rate_locations.table.gz (83/87): adding to final database dump
+0058.640 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_tax_rates.table.gz (84/87): adding to final database dump
+0058.650 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_woocommerce_termmeta.table.gz (85/87): adding to final database dump
+0058.662 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_yoast_seo_links.table.gz (86/87): adding to final database dump
+0058.674 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db-table-wp_yoast_seo_meta.table.gz (87/87): adding to final database dump
+0058.684 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db.gz: finished writing out complete database file (11256 KB)
+0058.821 (0) Total database tables backed up: 87 (backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db.gz, size: 11548011, sha256)
+0058.864 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0058.874 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0058.886 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0058.897 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0058.905 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads3.zip: uploads: This file has not yet been successfully uploaded: will queue
+0058.915 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads4.zip: uploads: This file has not yet been successfully uploaded: will queue
+0058.927 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads5.zip: uploads: This file has not yet been successfully uploaded: will queue
+0058.937 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads6.zip: uploads: This file has not yet been successfully uploaded: will queue
+0058.945 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip: uploads: This file has not yet been successfully uploaded: will queue
+0058.955 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads8.zip: uploads: This file has not yet been successfully uploaded: will queue
+0058.967 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-others.zip: others: This file has not yet been successfully uploaded: will queue
+0058.977 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db.gz: db: This file has not yet been successfully uploaded: will queue
+0058.986 (0) Saving backup history. Total backup size: 771 MB
+0059.008 (0) Requesting upload of the files that have not yet been successfully uploaded (12)
+0059.037 (0) Cloud backup selection (1/1): remotesend with instance (1/1) (last)
+0059.049 (0) Beginning dispatch of backup to remote (remotesend)
+0059.060 (0) remotesend upload : attempt: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip
+0059.168 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip: existing size: 0
+0059.179 (0) Remote send upload: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip (chunks: 23, of size: 2097152) -> remotesend://https://smallideasqld.com.au/backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip (0)
+0059.744 (0) Remotesend chunked upload: 4.4 % uploaded (1)
+0060.314 (0) Remotesend chunked upload: 8.9 % uploaded (2)
+0061.104 (0) Remotesend chunked upload: 13.3 % uploaded (3)
+0061.898 (0) Remotesend chunked upload: 17.7 % uploaded (4)
+0062.401 (0) Remotesend chunked upload: 22.2 % uploaded (5)
+0062.917 (0) Remotesend chunked upload: 26.6 % uploaded (6)
+0063.409 (0) Remotesend chunked upload: 31 % uploaded (7)
+0063.919 (0) Remotesend chunked upload: 35.5 % uploaded (8)
+0064.417 (0) Remotesend chunked upload: 39.9 % uploaded (9)
+0064.926 (0) Remotesend chunked upload: 44.3 % uploaded (10)
+0065.424 (0) Remotesend chunked upload: 48.8 % uploaded (11)
+0066.076 (0) Remotesend chunked upload: 53.2 % uploaded (12)
+0066.609 (0) Remotesend chunked upload: 57.6 % uploaded (13)
+0067.187 (0) Remotesend chunked upload: 62.1 % uploaded (14)
+0067.715 (0) Remotesend chunked upload: 66.5 % uploaded (15)
+0068.286 (0) Remotesend chunked upload: 70.9 % uploaded (16)
+0069.135 (0) Remotesend chunked upload: 75.4 % uploaded (17)
+0069.722 (0) Remotesend chunked upload: 79.8 % uploaded (18)
+0070.371 (0) Remotesend chunked upload: 84.2 % uploaded (19)
+0072.120 (0) Remotesend chunked upload: 88.7 % uploaded (20)
+0072.701 (0) Remotesend chunked upload: 93.1 % uploaded (21)
+0073.290 (0) Remotesend chunked upload: 97.5 % uploaded (22)
+0073.617 (0) Remotesend chunked upload: 100 % uploaded (23)
+0073.641 (0) Remote send upload: success
+0073.662 (0) Recording as successfully uploaded: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip (dc59260a672e8e9bec708d5d24668421)
+0073.714 (0) Deleting local file: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip: OK
+0073.726 (0) remotesend upload : attempt: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-themes.zip
+0073.868 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-themes.zip: existing size: 0
+0073.881 (0) Remote send upload: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-themes.zip (chunks: 3, of size: 2097152) -> remotesend://https://smallideasqld.com.au/backup_2018-06-16-2243_Small_Ideas_698f83d35be7-themes.zip (0)
+0074.424 (0) Remotesend chunked upload: 38.9 % uploaded (1)
+0074.989 (0) Remotesend chunked upload: 77.7 % uploaded (2)
+0075.374 (0) Remotesend chunked upload: 100 % uploaded (3)
+0075.399 (0) Remote send upload: success
+0075.419 (0) Recording as successfully uploaded: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-themes.zip (47205637069c9482238fdc25efa82cf8)
+0075.457 (0) Deleting local file: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-themes.zip: OK
+0075.468 (0) remotesend upload : attempt: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads.zip
+0075.594 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads.zip: existing size: 0
+0075.604 (0) Remote send upload: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads.zip (chunks: 50, of size: 2097152) -> remotesend://https://smallideasqld.com.au/backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads.zip (0)
+0076.124 (0) Remotesend chunked upload: 2 % uploaded (1)
+0076.625 (0) Remotesend chunked upload: 4.1 % uploaded (2)
+0077.197 (0) Remotesend chunked upload: 6.1 % uploaded (3)
+0077.723 (0) Remotesend chunked upload: 8.1 % uploaded (4)
+0078.297 (0) Remotesend chunked upload: 10.1 % uploaded (5)
+0078.992 (0) Remotesend chunked upload: 12.2 % uploaded (6)
+0079.513 (0) Remotesend chunked upload: 14.2 % uploaded (7)
+0080.014 (0) Remotesend chunked upload: 16.2 % uploaded (8)
+0080.513 (0) Remotesend chunked upload: 18.3 % uploaded (9)
+0081.017 (0) Remotesend chunked upload: 20.3 % uploaded (10)
+0081.581 (0) Remotesend chunked upload: 22.3 % uploaded (11)
+0082.124 (0) Remotesend chunked upload: 24.3 % uploaded (12)
+0082.673 (0) Remotesend chunked upload: 26.4 % uploaded (13)
+0083.286 (0) Remotesend chunked upload: 28.4 % uploaded (14)
+0083.938 (0) Remotesend chunked upload: 30.4 % uploaded (15)
+0084.498 (0) Remotesend chunked upload: 32.5 % uploaded (16)
+0085.032 (0) Remotesend chunked upload: 34.5 % uploaded (17)
+0085.577 (0) Remotesend chunked upload: 36.5 % uploaded (18)
+0086.116 (0) Remotesend chunked upload: 38.5 % uploaded (19)
+0086.616 (0) Remotesend chunked upload: 40.6 % uploaded (20)
+0087.208 (0) Remotesend chunked upload: 42.6 % uploaded (21)
+0087.715 (0) Remotesend chunked upload: 44.6 % uploaded (22)
+0088.277 (0) Remotesend chunked upload: 46.7 % uploaded (23)
+0088.904 (0) Remotesend chunked upload: 48.7 % uploaded (24)
+0089.408 (0) Remotesend chunked upload: 50.7 % uploaded (25)
+0089.910 (0) Remotesend chunked upload: 52.7 % uploaded (26)
+0090.415 (0) Remotesend chunked upload: 54.8 % uploaded (27)
+0091.119 (0) Remotesend chunked upload: 56.8 % uploaded (28)
+0091.691 (0) Remotesend chunked upload: 58.8 % uploaded (29)
+0092.292 (0) Remotesend chunked upload: 60.9 % uploaded (30)
+0093.012 (0) Remotesend chunked upload: 62.9 % uploaded (31)
+0093.515 (0) Remotesend chunked upload: 64.9 % uploaded (32)
+0094.021 (0) Remotesend chunked upload: 66.9 % uploaded (33)
+0094.572 (0) Remotesend chunked upload: 69 % uploaded (34)
+0095.123 (0) Remotesend chunked upload: 71 % uploaded (35)
+0095.615 (0) Remotesend chunked upload: 73 % uploaded (36)
+0096.283 (0) Remotesend chunked upload: 75.1 % uploaded (37)
+0096.924 (0) Remotesend chunked upload: 77.1 % uploaded (38)
+0097.475 (0) Remotesend chunked upload: 79.1 % uploaded (39)
+0098.016 (0) Remotesend chunked upload: 81.1 % uploaded (40)
+0098.510 (0) Remotesend chunked upload: 83.2 % uploaded (41)
+0099.021 (0) Remotesend chunked upload: 85.2 % uploaded (42)
+0099.514 (0) Remotesend chunked upload: 87.2 % uploaded (43)
+0100.020 (0) Remotesend chunked upload: 89.3 % uploaded (44)
+0100.514 (0) Remotesend chunked upload: 91.3 % uploaded (45)
+0101.020 (0) Remotesend chunked upload: 93.3 % uploaded (46)
+0101.525 (0) Remotesend chunked upload: 95.3 % uploaded (47)
+0102.082 (0) Remotesend chunked upload: 97.4 % uploaded (48)
+0102.612 (0) Remotesend chunked upload: 99.4 % uploaded (49)
+0102.824 (0) Remotesend chunked upload: 100 % uploaded (50)
+0102.845 (0) Remote send upload: success
+0102.866 (0) Recording as successfully uploaded: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads.zip (7c4126c3fef41b9f649f72005d83b846)
+0102.915 (0) Deleting local file: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads.zip: OK
+0102.923 (0) remotesend upload : attempt: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip
+0102.997 (0) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip: existing size: 0
+0103.010 (0) Remote send upload: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip (chunks: 49, of size: 2097152) -> remotesend://https://smallideasqld.com.au/backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip (0)
+0103.521 (0) Remotesend chunked upload: 2.1 % uploaded (1)
+0104.131 (0) Remotesend chunked upload: 4.1 % uploaded (2)
+0104.793 (0) Remotesend chunked upload: 6.2 % uploaded (3)
+0105.402 (0) Remotesend chunked upload: 8.2 % uploaded (4)
+0105.927 (0) Remotesend chunked upload: 10.3 % uploaded (5)
+0106.684 (0) Remotesend chunked upload: 12.3 % uploaded (6)
+0107.327 (0) Remotesend chunked upload: 14.4 % uploaded (7)
+0107.929 (0) Remotesend chunked upload: 16.4 % uploaded (8)
+0108.497 (0) Remotesend chunked upload: 18.5 % uploaded (9)
+0109.128 (0) Remotesend chunked upload: 20.6 % uploaded (10)
+0109.731 (0) Remotesend chunked upload: 22.6 % uploaded (11)
+0110.282 (0) Remotesend chunked upload: 24.7 % uploaded (12)
+0110.814 (0) Remotesend chunked upload: 26.7 % uploaded (13)
+0111.369 (0) Remotesend chunked upload: 28.8 % uploaded (14)
+0111.918 (0) Remotesend chunked upload: 30.8 % uploaded (15)
+0112.621 (0) Remotesend chunked upload: 32.9 % uploaded (16)
+0113.487 (0) Remotesend chunked upload: 35 % uploaded (17)
+0114.443 (0) Remotesend chunked upload: 37 % uploaded (18)
+0115.407 (0) Remotesend chunked upload: 39.1 % uploaded (19)
+0115.935 (0) Remotesend chunked upload: 41.1 % uploaded (20)
+0116.517 (0) Remotesend chunked upload: 43.2 % uploaded (21)
+0117.911 (0) Remotesend chunked upload: 45.2 % uploaded (22)
+0118.502 (0) Remotesend chunked upload: 47.3 % uploaded (23)
+0119.129 (0) Remotesend chunked upload: 49.3 % uploaded (24)
+0119.687 (0) Remotesend chunked upload: 51.4 % uploaded (25)
+0120.294 (0) Remotesend chunked upload: 53.5 % uploaded (26)
+0120.988 (0) Remotesend chunked upload: 55.5 % uploaded (27)
+0121.512 (0) Remotesend chunked upload: 57.6 % uploaded (28)
+0302.407 (1) Opened log file at time: Sat, 16 Jun 2018 12:48:33 +0000 on https://smallideas.com.au
+0302.417 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.11.1 WP: 4.8.6 PHP: 5.6.36 (litespeed, Linux host3.easypeas.com 3.10.0-714.10.2.lve1.4.79.el7.x86_64 #1 SMP Thu Jan 4 13:30:50 EST 2018 x86_64) MySQL: 5.6.39 WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 19.5M | 20M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0302.458 (1) Free space on disk containing Updraft's temporary directory: 30787.2 MB
+0302.480 (1) Backup run: resumption=1, nonce=698f83d35be7, begun at=1529153011 (302s ago), job type=backup, previous check-in=121.5s
+0302.499 (1) Scheduling a resumption (2) after 300 seconds (1529153613) in case this run gets aborted
+0302.526 (1) Checking if we have a zip executable available
+0302.536 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0302.544 (1) Creation of backups of directories: already finished
+0302.555 (1) Saving backup status to database (elements: 15)
+0302.579 (1) Database dump (WordPress DB): Creation was completed already
+0302.610 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-plugins.zip: plugins: This file has already been successfully uploaded
+0302.620 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-themes.zip: themes: This file has already been successfully uploaded
+0302.629 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads.zip: uploads: This file has already been successfully uploaded
+0302.639 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0302.651 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads3.zip: uploads: This file has not yet been successfully uploaded: will queue
+0302.661 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads4.zip: uploads: This file has not yet been successfully uploaded: will queue
+0302.669 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads5.zip: uploads: This file has not yet been successfully uploaded: will queue
+0302.678 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads6.zip: uploads: This file has not yet been successfully uploaded: will queue
+0302.691 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip: uploads: This file has not yet been successfully uploaded: will queue
+0302.700 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads8.zip: uploads: This file has not yet been successfully uploaded: will queue
+0302.708 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-others.zip: others: This file has not yet been successfully uploaded: will queue
+0302.719 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db.gz: db: This file has not yet been successfully uploaded: will queue
+0302.731 (1) Saving backup history. Total backup size: 771 MB
+0302.751 (1) Requesting upload of the files that have not yet been successfully uploaded (9)
+0302.761 (1) Cloud backup selection (1/1): remotesend with instance (1/1) (last)
+0302.773 (1) Beginning dispatch of backup to remote (remotesend)
+0302.784 (1) remotesend upload : attempt: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip
+0302.893 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip: existing size: 60817408
+0302.904 (1) Remote send upload: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip (chunks: 49, of size: 2097152) -> remotesend://https://smallideasqld.com.au/backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip (60817408)
+0304.100 (1) Remotesend chunked upload: 61.7 % uploaded (30)
+0304.679 (1) Remotesend chunked upload: 63.7 % uploaded (31)
+0305.284 (1) Remotesend chunked upload: 65.8 % uploaded (32)
+0305.920 (1) Remotesend chunked upload: 67.9 % uploaded (33)
+0306.420 (1) Remotesend chunked upload: 69.9 % uploaded (34)
+0307.007 (1) Remotesend chunked upload: 72 % uploaded (35)
+0307.515 (1) Remotesend chunked upload: 74 % uploaded (36)
+0308.108 (1) Remotesend chunked upload: 76.1 % uploaded (37)
+0308.796 (1) Remotesend chunked upload: 78.1 % uploaded (38)
+0309.311 (1) Remotesend chunked upload: 80.2 % uploaded (39)
+0309.823 (1) Remotesend chunked upload: 82.2 % uploaded (40)
+0310.372 (1) Remotesend chunked upload: 84.3 % uploaded (41)
+0310.991 (1) Remotesend chunked upload: 86.4 % uploaded (42)
+0311.517 (1) Remotesend chunked upload: 88.4 % uploaded (43)
+0312.078 (1) Remotesend chunked upload: 90.5 % uploaded (44)
+0312.607 (1) Remotesend chunked upload: 92.5 % uploaded (45)
+0313.189 (1) Remotesend chunked upload: 94.6 % uploaded (46)
+0313.714 (1) Remotesend chunked upload: 96.6 % uploaded (47)
+0314.284 (1) Remotesend chunked upload: 98.7 % uploaded (48)
+0314.684 (1) Remotesend chunked upload: 100 % uploaded (49)
+0314.706 (1) Remote send upload: success
+0314.726 (1) Recording as successfully uploaded: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip (ec53b50257ec8e21c3eaf7ca5ef6ce4d)
+0314.781 (1) Deleting local file: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads2.zip: OK
+0314.791 (1) remotesend upload : attempt: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads3.zip
+0314.964 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads3.zip: existing size: 0
+0314.974 (1) Remote send upload: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads3.zip (chunks: 48, of size: 2097152) -> remotesend://https://smallideasqld.com.au/backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads3.zip (0)
+0315.595 (1) Remotesend chunked upload: 2.1 % uploaded (1)
+0316.210 (1) Remotesend chunked upload: 4.2 % uploaded (2)
+0316.841 (1) Remotesend chunked upload: 6.3 % uploaded (3)
+0317.416 (1) Remotesend chunked upload: 8.4 % uploaded (4)
+0317.993 (1) Remotesend chunked upload: 10.5 % uploaded (5)
+0318.515 (1) Remotesend chunked upload: 12.5 % uploaded (6)
+0319.093 (1) Remotesend chunked upload: 14.6 % uploaded (7)
+0319.616 (1) Remotesend chunked upload: 16.7 % uploaded (8)
+0320.305 (1) Remotesend chunked upload: 18.8 % uploaded (9)
+0320.819 (1) Remotesend chunked upload: 20.9 % uploaded (10)
+0321.324 (1) Remotesend chunked upload: 23 % uploaded (11)
+0321.888 (1) Remotesend chunked upload: 25.1 % uploaded (12)
+0322.418 (1) Remotesend chunked upload: 27.2 % uploaded (13)
+0322.934 (1) Remotesend chunked upload: 29.3 % uploaded (14)
+0323.498 (1) Remotesend chunked upload: 31.4 % uploaded (15)
+0324.026 (1) Remotesend chunked upload: 33.5 % uploaded (16)
+0324.580 (1) Remotesend chunked upload: 35.6 % uploaded (17)
+0325.124 (1) Remotesend chunked upload: 37.6 % uploaded (18)
+0325.678 (1) Remotesend chunked upload: 39.7 % uploaded (19)
+0326.288 (1) Remotesend chunked upload: 41.8 % uploaded (20)
+0326.825 (1) Remotesend chunked upload: 43.9 % uploaded (21)
+0327.380 (1) Remotesend chunked upload: 46 % uploaded (22)
+0327.923 (1) Remotesend chunked upload: 48.1 % uploaded (23)
+0328.483 (1) Remotesend chunked upload: 50.2 % uploaded (24)
+0329.018 (1) Remotesend chunked upload: 52.3 % uploaded (25)
+0329.576 (1) Remotesend chunked upload: 54.4 % uploaded (26)
+0330.121 (1) Remotesend chunked upload: 56.5 % uploaded (27)
+0330.617 (1) Remotesend chunked upload: 58.6 % uploaded (28)
+0331.224 (1) Remotesend chunked upload: 60.7 % uploaded (29)
+0331.858 (1) Remotesend chunked upload: 62.7 % uploaded (30)
+0332.405 (1) Remotesend chunked upload: 64.8 % uploaded (31)
+0332.923 (1) Remotesend chunked upload: 66.9 % uploaded (32)
+0333.482 (1) Remotesend chunked upload: 69 % uploaded (33)
+0334.019 (1) Remotesend chunked upload: 71.1 % uploaded (34)
+0334.514 (1) Remotesend chunked upload: 73.2 % uploaded (35)
+0335.019 (1) Remotesend chunked upload: 75.3 % uploaded (36)
+0335.524 (1) Remotesend chunked upload: 77.4 % uploaded (37)
+0336.085 (1) Remotesend chunked upload: 79.5 % uploaded (38)
+0336.609 (1) Remotesend chunked upload: 81.6 % uploaded (39)
+0337.197 (1) Remotesend chunked upload: 83.7 % uploaded (40)
+0337.715 (1) Remotesend chunked upload: 85.8 % uploaded (41)
+0338.277 (1) Remotesend chunked upload: 87.8 % uploaded (42)
+0338.920 (1) Remotesend chunked upload: 89.9 % uploaded (43)
+0339.418 (1) Remotesend chunked upload: 92 % uploaded (44)
+0339.930 (1) Remotesend chunked upload: 94.1 % uploaded (45)
+0340.483 (1) Remotesend chunked upload: 96.2 % uploaded (46)
+0341.029 (1) Remotesend chunked upload: 98.3 % uploaded (47)
+0341.476 (1) Remotesend chunked upload: 100 % uploaded (48)
+0341.497 (1) Remote send upload: success
+0341.518 (1) Recording as successfully uploaded: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads3.zip (6b9d59eec81f3c18f3c87f9b796cfcb6)
+0341.564 (1) Deleting local file: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads3.zip: OK
+0341.573 (1) remotesend upload : attempt: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads4.zip
+0341.645 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads4.zip: existing size: 0
+0341.657 (1) Remote send upload: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads4.zip (chunks: 49, of size: 2097152) -> remotesend://https://smallideasqld.com.au/backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads4.zip (0)
+0342.226 (1) Remotesend chunked upload: 2 % uploaded (1)
+0342.728 (1) Remotesend chunked upload: 4.1 % uploaded (2)
+0343.302 (1) Remotesend chunked upload: 6.1 % uploaded (3)
+0343.820 (1) Remotesend chunked upload: 8.2 % uploaded (4)
+0344.321 (1) Remotesend chunked upload: 10.2 % uploaded (5)
+0344.830 (1) Remotesend chunked upload: 12.3 % uploaded (6)
+0345.382 (1) Remotesend chunked upload: 14.3 % uploaded (7)
+0345.935 (1) Remotesend chunked upload: 16.3 % uploaded (8)
+0346.484 (1) Remotesend chunked upload: 18.4 % uploaded (9)
+0347.210 (1) Remotesend chunked upload: 20.4 % uploaded (10)
+0347.802 (1) Remotesend chunked upload: 22.5 % uploaded (11)
+0348.391 (1) Remotesend chunked upload: 24.5 % uploaded (12)
+0349.113 (1) Remotesend chunked upload: 26.6 % uploaded (13)
+0349.691 (1) Remotesend chunked upload: 28.6 % uploaded (14)
+0350.389 (1) Remotesend chunked upload: 30.7 % uploaded (15)
+0351.084 (1) Remotesend chunked upload: 32.7 % uploaded (16)
+0351.715 (1) Remotesend chunked upload: 34.7 % uploaded (17)
+0352.376 (1) Remotesend chunked upload: 36.8 % uploaded (18)
+0353.127 (1) Remotesend chunked upload: 38.8 % uploaded (19)
+0353.688 (1) Remotesend chunked upload: 40.9 % uploaded (20)
+0354.285 (1) Remotesend chunked upload: 42.9 % uploaded (21)
+0354.929 (1) Remotesend chunked upload: 45 % uploaded (22)
+0355.588 (1) Remotesend chunked upload: 47 % uploaded (23)
+0356.215 (1) Remotesend chunked upload: 49 % uploaded (24)
+0356.816 (1) Remotesend chunked upload: 51.1 % uploaded (25)
+0357.410 (1) Remotesend chunked upload: 53.1 % uploaded (26)
+0357.920 (1) Remotesend chunked upload: 55.2 % uploaded (27)
+0358.415 (1) Remotesend chunked upload: 57.2 % uploaded (28)
+0358.932 (1) Remotesend chunked upload: 59.3 % uploaded (29)
+0359.578 (1) Remotesend chunked upload: 61.3 % uploaded (30)
+0360.122 (1) Remotesend chunked upload: 63.4 % uploaded (31)
+0360.701 (1) Remotesend chunked upload: 65.4 % uploaded (32)
+0361.404 (1) Remotesend chunked upload: 67.4 % uploaded (33)
+0362.179 (1) Remotesend chunked upload: 69.5 % uploaded (34)
+0362.923 (1) Remotesend chunked upload: 71.5 % uploaded (35)
+0363.517 (1) Remotesend chunked upload: 73.6 % uploaded (36)
+0364.022 (1) Remotesend chunked upload: 75.6 % uploaded (37)
+0364.601 (1) Remotesend chunked upload: 77.7 % uploaded (38)
+0365.189 (1) Remotesend chunked upload: 79.7 % uploaded (39)
+0365.898 (1) Remotesend chunked upload: 81.7 % uploaded (40)
+0366.490 (1) Remotesend chunked upload: 83.8 % uploaded (41)
+0367.123 (1) Remotesend chunked upload: 85.8 % uploaded (42)
+0367.795 (1) Remotesend chunked upload: 87.9 % uploaded (43)
+0368.309 (1) Remotesend chunked upload: 89.9 % uploaded (44)
+0368.936 (1) Remotesend chunked upload: 92 % uploaded (45)
+0369.581 (1) Remotesend chunked upload: 94 % uploaded (46)
+0370.121 (1) Remotesend chunked upload: 96 % uploaded (47)
+0370.663 (1) Remotesend chunked upload: 98.1 % uploaded (48)
+0371.282 (1) Remotesend chunked upload: 100 % uploaded (49)
+0371.307 (1) Remote send upload: success
+0371.324 (1) Recording as successfully uploaded: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads4.zip (48e47fb349b3c9aa6045277beee9afea)
+0371.371 (1) Deleting local file: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads4.zip: OK
+0371.379 (1) remotesend upload : attempt: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads5.zip
+0371.456 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads5.zip: existing size: 0
+0371.465 (1) Remote send upload: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads5.zip (chunks: 49, of size: 2097152) -> remotesend://https://smallideasqld.com.au/backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads5.zip (0)
+0372.150 (1) Remotesend chunked upload: 2.1 % uploaded (1)
+0372.720 (1) Remotesend chunked upload: 4.1 % uploaded (2)
+0373.392 (1) Remotesend chunked upload: 6.2 % uploaded (3)
+0374.119 (1) Remotesend chunked upload: 8.2 % uploaded (4)
+0374.614 (1) Remotesend chunked upload: 10.3 % uploaded (5)
+0375.210 (1) Remotesend chunked upload: 12.3 % uploaded (6)
+0375.721 (1) Remotesend chunked upload: 14.4 % uploaded (7)
+0376.295 (1) Remotesend chunked upload: 16.4 % uploaded (8)
+0376.996 (1) Remotesend chunked upload: 18.5 % uploaded (9)
+0377.930 (1) Remotesend chunked upload: 20.5 % uploaded (10)
+0378.518 (1) Remotesend chunked upload: 22.6 % uploaded (11)
+0379.113 (1) Remotesend chunked upload: 24.7 % uploaded (12)
+0379.630 (1) Remotesend chunked upload: 26.7 % uploaded (13)
+0380.218 (1) Remotesend chunked upload: 28.8 % uploaded (14)
+0380.733 (1) Remotesend chunked upload: 30.8 % uploaded (15)
+0381.321 (1) Remotesend chunked upload: 32.9 % uploaded (16)
+0381.917 (1) Remotesend chunked upload: 34.9 % uploaded (17)
+0382.483 (1) Remotesend chunked upload: 37 % uploaded (18)
+0383.028 (1) Remotesend chunked upload: 39 % uploaded (19)
+0383.594 (1) Remotesend chunked upload: 41.1 % uploaded (20)
+0384.215 (1) Remotesend chunked upload: 43.1 % uploaded (21)
+0384.986 (1) Remotesend chunked upload: 45.2 % uploaded (22)
+0385.514 (1) Remotesend chunked upload: 47.2 % uploaded (23)
+0386.089 (1) Remotesend chunked upload: 49.3 % uploaded (24)
+0386.690 (1) Remotesend chunked upload: 51.4 % uploaded (25)
+0387.276 (1) Remotesend chunked upload: 53.4 % uploaded (26)
+0387.886 (1) Remotesend chunked upload: 55.5 % uploaded (27)
+0388.482 (1) Remotesend chunked upload: 57.5 % uploaded (28)
+0389.036 (1) Remotesend chunked upload: 59.6 % uploaded (29)
+0389.584 (1) Remotesend chunked upload: 61.6 % uploaded (30)
+0390.299 (1) Remotesend chunked upload: 63.7 % uploaded (31)
+0390.905 (1) Remotesend chunked upload: 65.7 % uploaded (32)
+0391.411 (1) Remotesend chunked upload: 67.8 % uploaded (33)
+0391.930 (1) Remotesend chunked upload: 69.8 % uploaded (34)
+0392.483 (1) Remotesend chunked upload: 71.9 % uploaded (35)
+0393.021 (1) Remotesend chunked upload: 74 % uploaded (36)
+0393.591 (1) Remotesend chunked upload: 76 % uploaded (37)
+0394.126 (1) Remotesend chunked upload: 78.1 % uploaded (38)
+0394.681 (1) Remotesend chunked upload: 80.1 % uploaded (39)
+0395.288 (1) Remotesend chunked upload: 82.2 % uploaded (40)
+0395.919 (1) Remotesend chunked upload: 84.2 % uploaded (41)
+0396.427 (1) Remotesend chunked upload: 86.3 % uploaded (42)
+0396.932 (1) Remotesend chunked upload: 88.3 % uploaded (43)
+0397.486 (1) Remotesend chunked upload: 90.4 % uploaded (44)
+0398.020 (1) Remotesend chunked upload: 92.4 % uploaded (45)
+0398.523 (1) Remotesend chunked upload: 94.5 % uploaded (46)
+0399.029 (1) Remotesend chunked upload: 96.6 % uploaded (47)
+0399.623 (1) Remotesend chunked upload: 98.6 % uploaded (48)
+0400.090 (1) Remotesend chunked upload: 100 % uploaded (49)
+0400.114 (1) Remote send upload: success
+0400.131 (1) Recording as successfully uploaded: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads5.zip (6ae6eef4a5324a7b7890167285af44d1)
+0400.177 (1) Deleting local file: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads5.zip: OK
+0400.185 (1) remotesend upload : attempt: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads6.zip
+0400.264 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads6.zip: existing size: 0
+0400.272 (1) Remote send upload: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads6.zip (chunks: 48, of size: 2097152) -> remotesend://https://smallideasqld.com.au/backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads6.zip (0)
+0400.915 (1) Remotesend chunked upload: 2.1 % uploaded (1)
+0401.473 (1) Remotesend chunked upload: 4.2 % uploaded (2)
+0402.028 (1) Remotesend chunked upload: 6.3 % uploaded (3)
+0402.594 (1) Remotesend chunked upload: 8.5 % uploaded (4)
+0403.208 (1) Remotesend chunked upload: 10.6 % uploaded (5)
+0403.788 (1) Remotesend chunked upload: 12.7 % uploaded (6)
+0404.484 (1) Remotesend chunked upload: 14.8 % uploaded (7)
+0405.036 (1) Remotesend chunked upload: 16.9 % uploaded (8)
+0405.605 (1) Remotesend chunked upload: 19 % uploaded (9)
+0406.206 (1) Remotesend chunked upload: 21.2 % uploaded (10)
+0407.480 (1) Remotesend chunked upload: 23.3 % uploaded (11)
+0408.159 (1) Remotesend chunked upload: 25.4 % uploaded (12)
+0408.732 (1) Remotesend chunked upload: 27.5 % uploaded (13)
+0409.320 (1) Remotesend chunked upload: 29.6 % uploaded (14)
+0409.897 (1) Remotesend chunked upload: 31.7 % uploaded (15)
+0410.416 (1) Remotesend chunked upload: 33.8 % uploaded (16)
+0411.018 (1) Remotesend chunked upload: 36 % uploaded (17)
+0411.515 (1) Remotesend chunked upload: 38.1 % uploaded (18)
+0412.025 (1) Remotesend chunked upload: 40.2 % uploaded (19)
+0412.589 (1) Remotesend chunked upload: 42.3 % uploaded (20)
+0413.123 (1) Remotesend chunked upload: 44.4 % uploaded (21)
+0413.676 (1) Remotesend chunked upload: 46.5 % uploaded (22)
+0414.278 (1) Remotesend chunked upload: 48.7 % uploaded (23)
+0415.009 (1) Remotesend chunked upload: 50.8 % uploaded (24)
+0415.518 (1) Remotesend chunked upload: 52.9 % uploaded (25)
+0416.034 (1) Remotesend chunked upload: 55 % uploaded (26)
+0416.685 (1) Remotesend chunked upload: 57.1 % uploaded (27)
+0417.282 (1) Remotesend chunked upload: 59.2 % uploaded (28)
+0417.911 (1) Remotesend chunked upload: 61.3 % uploaded (29)
+0418.425 (1) Remotesend chunked upload: 63.5 % uploaded (30)
+0418.927 (1) Remotesend chunked upload: 65.6 % uploaded (31)
+0419.425 (1) Remotesend chunked upload: 67.7 % uploaded (32)
+0419.995 (1) Remotesend chunked upload: 69.8 % uploaded (33)
+0420.516 (1) Remotesend chunked upload: 71.9 % uploaded (34)
+0421.102 (1) Remotesend chunked upload: 74 % uploaded (35)
+0421.598 (1) Remotesend chunked upload: 76.2 % uploaded (36)
+0422.179 (1) Remotesend chunked upload: 78.3 % uploaded (37)
+0422.709 (1) Remotesend chunked upload: 80.4 % uploaded (38)
+0423.298 (1) Remotesend chunked upload: 82.5 % uploaded (39)
+0423.814 (1) Remotesend chunked upload: 84.6 % uploaded (40)
+0424.315 (1) Remotesend chunked upload: 86.7 % uploaded (41)
+0424.888 (1) Remotesend chunked upload: 88.8 % uploaded (42)
+0425.416 (1) Remotesend chunked upload: 91 % uploaded (43)
+0425.924 (1) Remotesend chunked upload: 93.1 % uploaded (44)
+0426.480 (1) Remotesend chunked upload: 95.2 % uploaded (45)
+0427.025 (1) Remotesend chunked upload: 97.3 % uploaded (46)
+0427.575 (1) Remotesend chunked upload: 99.4 % uploaded (47)
+0427.814 (1) Remotesend chunked upload: 100 % uploaded (48)
+0427.834 (1) Remote send upload: success
+0427.855 (1) Recording as successfully uploaded: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads6.zip (85c456646e71c40a37861f063d53baed)
+0427.902 (1) Deleting local file: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads6.zip: OK
+0427.912 (1) remotesend upload : attempt: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip
+0427.985 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip: existing size: 0
+0427.997 (1) Remote send upload: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip (chunks: 49, of size: 2097152) -> remotesend://https://smallideasqld.com.au/backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip (0)
+0428.512 (1) Remotesend chunked upload: 2.1 % uploaded (1)
+0429.015 (1) Remotesend chunked upload: 4.1 % uploaded (2)
+0429.515 (1) Remotesend chunked upload: 6.2 % uploaded (3)
+0430.037 (1) Remotesend chunked upload: 8.3 % uploaded (4)
+0430.596 (1) Remotesend chunked upload: 10.3 % uploaded (5)
+0431.132 (1) Remotesend chunked upload: 12.4 % uploaded (6)
+0431.685 (1) Remotesend chunked upload: 14.5 % uploaded (7)
+0432.280 (1) Remotesend chunked upload: 16.6 % uploaded (8)
+0433.119 (1) Remotesend chunked upload: 18.6 % uploaded (9)
+0433.732 (1) Remotesend chunked upload: 20.7 % uploaded (10)
+0434.290 (1) Remotesend chunked upload: 22.8 % uploaded (11)
+0434.930 (1) Remotesend chunked upload: 24.8 % uploaded (12)
+0435.478 (1) Remotesend chunked upload: 26.9 % uploaded (13)
+0436.026 (1) Remotesend chunked upload: 29 % uploaded (14)
+0436.580 (1) Remotesend chunked upload: 31 % uploaded (15)
+0437.122 (1) Remotesend chunked upload: 33.1 % uploaded (16)
+0437.790 (1) Remotesend chunked upload: 35.2 % uploaded (17)
+0438.312 (1) Remotesend chunked upload: 37.3 % uploaded (18)
+0438.827 (1) Remotesend chunked upload: 39.3 % uploaded (19)
+0439.395 (1) Remotesend chunked upload: 41.4 % uploaded (20)
+0439.915 (1) Remotesend chunked upload: 43.5 % uploaded (21)
+0440.507 (1) Remotesend chunked upload: 45.5 % uploaded (22)
+0441.398 (1) Remotesend chunked upload: 47.6 % uploaded (23)
+0441.935 (1) Remotesend chunked upload: 49.7 % uploaded (24)
+0442.512 (1) Remotesend chunked upload: 51.7 % uploaded (25)
+0443.100 (1) Remotesend chunked upload: 53.8 % uploaded (26)
+0443.804 (1) Remotesend chunked upload: 55.9 % uploaded (27)
+0444.302 (1) Remotesend chunked upload: 58 % uploaded (28)
+0444.821 (1) Remotesend chunked upload: 60 % uploaded (29)
+0445.370 (1) Remotesend chunked upload: 62.1 % uploaded (30)
+0445.920 (1) Remotesend chunked upload: 64.2 % uploaded (31)
+0446.466 (1) Remotesend chunked upload: 66.2 % uploaded (32)
+0447.015 (1) Remotesend chunked upload: 68.3 % uploaded (33)
+0447.512 (1) Remotesend chunked upload: 70.4 % uploaded (34)
+0448.026 (1) Remotesend chunked upload: 72.4 % uploaded (35)
+0448.598 (1) Remotesend chunked upload: 74.5 % uploaded (36)
+0449.190 (1) Remotesend chunked upload: 76.6 % uploaded (37)
+0449.719 (1) Remotesend chunked upload: 78.7 % uploaded (38)
+0450.306 (1) Remotesend chunked upload: 80.7 % uploaded (39)
+0450.824 (1) Remotesend chunked upload: 82.8 % uploaded (40)
+0451.409 (1) Remotesend chunked upload: 84.9 % uploaded (41)
+0451.937 (1) Remotesend chunked upload: 86.9 % uploaded (42)
+0452.482 (1) Remotesend chunked upload: 89 % uploaded (43)
+0453.022 (1) Remotesend chunked upload: 91.1 % uploaded (44)
+0453.587 (1) Remotesend chunked upload: 93.1 % uploaded (45)
+0454.122 (1) Remotesend chunked upload: 95.2 % uploaded (46)
+0454.673 (1) Remotesend chunked upload: 97.3 % uploaded (47)
+0455.290 (1) Remotesend chunked upload: 99.4 % uploaded (48)
+0455.531 (1) Remotesend chunked upload: 100 % uploaded (49)
+0455.550 (1) Remote send upload: success
+0455.577 (1) Recording as successfully uploaded: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip (e9b40e14eaae4c38449c39fdd613193b)
+0455.625 (1) Deleting local file: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads7.zip: OK
+0455.638 (1) remotesend upload : attempt: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads8.zip
+0455.725 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads8.zip: existing size: 0
+0455.739 (1) Remote send upload: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads8.zip (chunks: 16, of size: 2097152) -> remotesend://https://smallideasqld.com.au/backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads8.zip (0)
+0456.291 (1) Remotesend chunked upload: 6.3 % uploaded (1)
+0456.916 (1) Remotesend chunked upload: 12.6 % uploaded (2)
+0457.419 (1) Remotesend chunked upload: 18.8 % uploaded (3)
+0457.986 (1) Remotesend chunked upload: 25.1 % uploaded (4)
+0458.518 (1) Remotesend chunked upload: 31.4 % uploaded (5)
+0459.038 (1) Remotesend chunked upload: 37.7 % uploaded (6)
+0459.589 (1) Remotesend chunked upload: 44 % uploaded (7)
+0460.118 (1) Remotesend chunked upload: 50.3 % uploaded (8)
+0460.670 (1) Remotesend chunked upload: 56.5 % uploaded (9)
+0461.294 (1) Remotesend chunked upload: 62.8 % uploaded (10)
+0461.828 (1) Remotesend chunked upload: 69.1 % uploaded (11)
+0462.417 (1) Remotesend chunked upload: 75.4 % uploaded (12)
+0462.935 (1) Remotesend chunked upload: 81.7 % uploaded (13)
+0463.777 (1) Remotesend chunked upload: 87.9 % uploaded (14)
+0464.308 (1) Remotesend chunked upload: 94.2 % uploaded (15)
+0464.809 (1) Remotesend chunked upload: 100 % uploaded (16)
+0464.828 (1) Remote send upload: success
+0464.851 (1) Recording as successfully uploaded: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads8.zip (eefdd8804853486b3092fc10690bca6c)
+0464.887 (1) Deleting local file: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-uploads8.zip: OK
+0464.898 (1) remotesend upload : attempt: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-others.zip
+0464.973 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-others.zip: existing size: 0
+0464.985 (1) Remote send upload: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-others.zip (chunks: 1, of size: 2097152) -> remotesend://https://smallideasqld.com.au/backup_2018-06-16-2243_Small_Ideas_698f83d35be7-others.zip (0)
+0465.070 (1) Remotesend chunked upload: 100 % uploaded (1)
+0465.092 (1) Remote send upload: success
+0465.111 (1) Recording as successfully uploaded: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-others.zip (7a063dc4962c5d09237a92b6732e0713)
+0465.142 (1) Deleting local file: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-others.zip: OK
+0465.152 (1) remotesend upload : attempt: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db.gz
+0465.236 (1) backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db.gz: existing size: 0
+0465.244 (1) Remote send upload: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db.gz (chunks: 6, of size: 2097152) -> remotesend://https://smallideasqld.com.au/backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db.gz (0)
+0465.902 (1) Remotesend chunked upload: 18.2 % uploaded (1)
+0466.407 (1) Remotesend chunked upload: 36.3 % uploaded (2)
+0466.929 (1) Remotesend chunked upload: 54.5 % uploaded (3)
+0467.612 (1) Remotesend chunked upload: 72.6 % uploaded (4)
+0468.191 (1) Remotesend chunked upload: 90.8 % uploaded (5)
+0468.510 (1) Remotesend chunked upload: 100 % uploaded (6)
+0468.535 (1) Remote send upload: success
+0468.573 (1) Recording as successfully uploaded: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db.gz (0c48018ee9ae1470e55583313e361cc1)
+0468.627 (1) Deleting local file: backup_2018-06-16-2243_Small_Ideas_698f83d35be7-db.gz: OK
+0468.639 (1) Prune old backups from local store: skipping, as this was a remote send operation
+0468.651 (1) Resume backup (698f83d35be7, 1): finish run
+0468.667 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+0468.701 (1) No email will/can be sent - the user has not configured an email address.
+0468.709 (1) The backup apparently succeeded and is now complete. To complete your migration/clone, you should now log in to the remote site and restore the backup set.

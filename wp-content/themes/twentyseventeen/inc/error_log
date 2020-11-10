@@ -1,0 +1,11 @@
+[06-Dec-2018 10:52:14 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/inc/template-tags.php on line 196
+[06-Dec-2018 11:36:17 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/inc/template-tags.php on line 196
+[06-Dec-2018 12:52:17 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/inc/template-tags.php on line 196
+[07-Dec-2018 01:50:39 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/inc/icon-functions.php on line 22
+[07-Dec-2018 03:34:26 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/inc/icon-functions.php on line 22
+[07-Dec-2018 04:33:15 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/inc/icon-functions.php on line 22
+[07-Dec-2018 05:24:55 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/inc/icon-functions.php on line 22
+[22-May-2019 12:06:26 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/inc/back-compat.php on line 26
+[22-May-2019 12:57:45 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/inc/back-compat.php on line 26
+[22-May-2019 15:47:36 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/inc/back-compat.php on line 26
+[22-May-2019 16:21:23 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/inc/back-compat.php on line 26

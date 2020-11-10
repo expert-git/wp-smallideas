@@ -1,0 +1,3 @@
+[24-Aug-2016 10:49:09 America/Chicago] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home2/smideas/public_html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17
+[30-Sep-2018 14:20:48 UTC] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/smallid4/public_html/wp-admin/includes/class-wp-filesystem-ssh2.php on line 36
+[30-Sep-2018 14:20:50 UTC] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/smallid4/public_html/wp-admin/includes/class-wp-filesystem-ssh2.php on line 36

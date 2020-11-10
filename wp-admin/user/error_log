@@ -1,0 +1,2 @@
+[26-Nov-2017 01:53:32 UTC] PHP Fatal error:  Call to undefined function __() in /home/smallid4/public_html/wp-admin/user/menu.php on line 10
+[26-Nov-2017 01:57:30 UTC] PHP Fatal error:  Call to undefined function __() in /home/smallid4/public_html/wp-admin/user/menu.php on line 10

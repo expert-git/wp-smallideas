@@ -1,0 +1,17 @@
+[30-Jul-2018 02:27:54 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/smallid4/public_html/wp-includes/widgets/class-wp-nav-menu-widget.php on line 17
+[30-Jul-2018 02:27:54 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/smallid4/public_html/wp-includes/widgets/class-wp-widget-calendar.php on line 17
+[30-Jul-2018 02:27:54 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/smallid4/public_html/wp-includes/widgets/class-wp-widget-categories.php on line 17
+[30-Jul-2018 02:27:54 UTC] PHP Fatal error:  Class 'WP_Widget_Media' not found in /home/smallid4/public_html/wp-includes/widgets/class-wp-widget-media-video.php on line 17
+[30-Jul-2018 02:27:54 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/smallid4/public_html/wp-includes/widgets/class-wp-widget-pages.php on line 17
+[30-Jul-2018 02:27:55 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/smallid4/public_html/wp-includes/widgets/class-wp-widget-recent-posts.php on line 17
+[30-Jul-2018 02:27:55 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/smallid4/public_html/wp-includes/widgets/class-wp-widget-archives.php on line 17
+[30-Jul-2018 02:27:56 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/smallid4/public_html/wp-includes/widgets/class-wp-widget-recent-comments.php on line 17
+[30-Jul-2018 02:28:02 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/smallid4/public_html/wp-includes/widgets/class-wp-widget-links.php on line 17
+[30-Jul-2018 02:28:02 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/smallid4/public_html/wp-includes/widgets/class-wp-widget-media.php on line 17
+[30-Jul-2018 02:28:03 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/smallid4/public_html/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 17
+[30-Jul-2018 02:31:30 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/smallid4/public_html/wp-includes/widgets/class-wp-widget-text.php on line 17
+[30-Jul-2018 02:31:41 UTC] PHP Fatal error:  Class 'WP_Widget_Media' not found in /home/smallid4/public_html/wp-includes/widgets/class-wp-widget-media-image.php on line 17
+[30-Jul-2018 02:35:03 UTC] PHP Fatal error:  Class 'WP_Widget_Media' not found in /home/smallid4/public_html/wp-includes/widgets/class-wp-widget-media-audio.php on line 17
+[30-Jul-2018 02:58:47 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/smallid4/public_html/wp-includes/widgets/class-wp-widget-rss.php on line 17
+[30-Jul-2018 03:02:07 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/smallid4/public_html/wp-includes/widgets/class-wp-widget-meta.php on line 19
+[30-Jul-2018 03:02:14 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/smallid4/public_html/wp-includes/widgets/class-wp-widget-search.php on line 17

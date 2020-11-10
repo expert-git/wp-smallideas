@@ -1,0 +1,6 @@
+[04-Dec-2018 05:50:22 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/smallid4/public_html/wp-content/themes/vantage/inc/customizer.php on line 3
+[04-Dec-2018 05:50:26 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/smallid4/public_html/wp-content/themes/vantage/inc/template-tags.php on line 283
+[06-Dec-2018 01:50:45 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/smallid4/public_html/wp-content/themes/vantage/inc/customizer.php on line 3
+[07-Dec-2018 12:31:59 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/smallid4/public_html/wp-content/themes/vantage/inc/customizer.php on line 3
+[08-Dec-2018 09:24:09 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/smallid4/public_html/wp-content/themes/vantage/inc/customizer.php on line 3
+[14-Dec-2018 16:47:15 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/smallid4/public_html/wp-content/themes/vantage/inc/template-tags.php on line 283

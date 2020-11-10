@@ -1,0 +1,665 @@
+0000.000 (0) Opened log file at time: Sat, 16 Jun 2018 12:27:05 +0000 on https://smallideas.com.au
+0000.012 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.11.0 WP: 4.8.6 PHP: 5.6.36 (litespeed, Linux host3.easypeas.com 3.10.0-714.10.2.lve1.4.79.el7.x86_64 #1 SMP Thu Jan 4 13:30:50 EST 2018 x86_64) MySQL: 5.6.39 WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 25M | 25.5M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.054 (0) Free space on disk containing Updraft's temporary directory: 32224.9 MB
+0000.064 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.087 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.106 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2018-06-16 12:27:05
+0000.129 (0) Semaphore (fd, wp_options) reset to 1
+0000.147 (0) Set semaphore last lock (fd) time to 2018-06-16 12:27:05
+0000.157 (0) Semaphore lock (fd) complete
+0000.188 (0) Backup run: resumption=0, nonce=0bbf57c50942, begun at=1529152025 (0s ago), job type=backup
+0000.210 (0) Scheduling a resumption (1) after 300 seconds (1529152325) in case this run gets aborted
+0000.232 (0) Checking if we have a zip executable available
+0000.243 (0) Testing: /usr/bin/zip
+0000.258 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.269 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.277 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.287 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.298 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.312 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.321 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.334 (0) Working binary zip found: /usr/bin/zip
+0000.356 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.365 (0) Creation of backups of directories: beginning
+0000.398 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.543 (0) Total entities for the zip file: 1453 directories, 9323 files (0 skipped as non-modified), 103.5 MB
+0000.557 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.569 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.579 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.590 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.603 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.613 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10 MB, 9323 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.865 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: size is now: 7.60 MB
+0000.885 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 600 files added (on-disk size: 7764.1 KB)
+0000.898 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 700 files added (on-disk size: 7764.1 KB)
+0000.909 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 800 files added (on-disk size: 7764.1 KB)
+0000.919 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 900 files added (on-disk size: 7764.1 KB)
+0000.930 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 1000 files added (on-disk size: 7764.1 KB)
+0000.943 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 MB, 9323 files batched, 501 (1002) added so far); re-opening (prior size: 7764.1 KB)
+0002.020 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: size is now: 10.60 MB
+0002.044 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 1100 files added (on-disk size: 10839.8 KB)
+0002.056 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 1200 files added (on-disk size: 10839.8 KB)
+0002.066 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 1300 files added (on-disk size: 10839.8 KB)
+0002.077 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 1400 files added (on-disk size: 10839.8 KB)
+0002.091 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 1500 files added (on-disk size: 10839.8 KB)
+0002.101 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 9323 files batched, 501 (1503) added so far); re-opening (prior size: 10839.8 KB)
+0002.734 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: size is now: 13.10 MB
+0002.761 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 1600 files added (on-disk size: 13429.8 KB)
+0002.775 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 1700 files added (on-disk size: 13429.8 KB)
+0002.787 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 1800 files added (on-disk size: 13429.8 KB)
+0002.797 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 1900 files added (on-disk size: 13429.8 KB)
+0002.808 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 2000 files added (on-disk size: 13429.8 KB)
+0002.820 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.6 MB, 9323 files batched, 501 (2004) added so far); re-opening (prior size: 13429.8 KB)
+0003.485 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 2100 files added (on-disk size: 15385.6 KB)
+0003.500 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 2200 files added (on-disk size: 15385.6 KB)
+0003.512 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 2300 files added (on-disk size: 15385.6 KB)
+0003.523 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 2400 files added (on-disk size: 15385.6 KB)
+0003.535 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 2500 files added (on-disk size: 15385.6 KB)
+0003.547 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.9 MB, 9323 files batched, 501 (2505) added so far); re-opening (prior size: 15385.6 KB)
+0004.324 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 2600 files added (on-disk size: 17974.8 KB)
+0004.334 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 2700 files added (on-disk size: 17974.8 KB)
+0004.347 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 2800 files added (on-disk size: 17974.8 KB)
+0004.361 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 2900 files added (on-disk size: 17974.8 KB)
+0004.371 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 3000 files added (on-disk size: 17974.8 KB)
+0004.380 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5 MB, 9323 files batched, 501 (3006) added so far); re-opening (prior size: 17974.8 KB)
+0005.207 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 3100 files added (on-disk size: 19635.4 KB)
+0005.217 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 3200 files added (on-disk size: 19635.4 KB)
+0005.230 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 3300 files added (on-disk size: 19635.4 KB)
+0005.243 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 3400 files added (on-disk size: 19635.4 KB)
+0005.253 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 3500 files added (on-disk size: 19635.4 KB)
+0005.262 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.9 MB, 9323 files batched, 501 (3507) added so far); re-opening (prior size: 19635.4 KB)
+0005.684 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 3600 files added (on-disk size: 21618.8 KB)
+0005.695 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 3700 files added (on-disk size: 21618.8 KB)
+0005.709 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 3800 files added (on-disk size: 21618.8 KB)
+0005.721 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 3900 files added (on-disk size: 21618.8 KB)
+0005.730 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 4000 files added (on-disk size: 21618.8 KB)
+0005.741 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.6 MB, 9323 files batched, 501 (4008) added so far); re-opening (prior size: 21618.8 KB)
+0006.916 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: size is now: 25.60 MB
+0006.945 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 4100 files added (on-disk size: 26188 KB)
+0006.960 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 4200 files added (on-disk size: 26188 KB)
+0006.972 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 4300 files added (on-disk size: 26188 KB)
+0006.982 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 4400 files added (on-disk size: 26188 KB)
+0006.993 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 4500 files added (on-disk size: 26188 KB)
+0007.005 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.1 MB, 9323 files batched, 501 (4509) added so far); re-opening (prior size: 26188 KB)
+0007.667 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 4600 files added (on-disk size: 26922.6 KB)
+0007.677 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 4700 files added (on-disk size: 26922.6 KB)
+0007.697 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 4800 files added (on-disk size: 26922.6 KB)
+0007.714 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 4900 files added (on-disk size: 26922.6 KB)
+0007.734 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 5000 files added (on-disk size: 26922.6 KB)
+0007.749 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.2 MB, 9323 files batched, 501 (5010) added so far); re-opening (prior size: 26922.6 KB)
+0008.071 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 5100 files added (on-disk size: 27157.6 KB)
+0008.087 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 5200 files added (on-disk size: 27157.6 KB)
+0008.115 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 5300 files added (on-disk size: 27157.6 KB)
+0008.126 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 5400 files added (on-disk size: 27157.6 KB)
+0008.141 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 5500 files added (on-disk size: 27157.6 KB)
+0008.153 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.7 MB, 9323 files batched, 501 (5511) added so far); re-opening (prior size: 27157.6 KB)
+0008.993 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 5600 files added (on-disk size: 28720.1 KB)
+0009.006 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 5700 files added (on-disk size: 28720.1 KB)
+0009.018 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 5800 files added (on-disk size: 28720.1 KB)
+0009.032 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 5900 files added (on-disk size: 28720.1 KB)
+0009.047 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 6000 files added (on-disk size: 28720.1 KB)
+0009.058 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.4 MB, 9323 files batched, 501 (6012) added so far); re-opening (prior size: 28720.1 KB)
+0009.800 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 6100 files added (on-disk size: 30860.9 KB)
+0009.812 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 6200 files added (on-disk size: 30860.9 KB)
+0009.826 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 6300 files added (on-disk size: 30860.9 KB)
+0009.846 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 6400 files added (on-disk size: 30860.9 KB)
+0009.857 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 6500 files added (on-disk size: 30860.9 KB)
+0009.870 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.2 MB, 9323 files batched, 501 (6513) added so far); re-opening (prior size: 30860.9 KB)
+0010.607 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 6600 files added (on-disk size: 33090.1 KB)
+0010.618 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 6700 files added (on-disk size: 33090.1 KB)
+0010.628 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 6800 files added (on-disk size: 33090.1 KB)
+0010.643 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 6900 files added (on-disk size: 33090.1 KB)
+0010.657 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 7000 files added (on-disk size: 33090.1 KB)
+0010.667 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.5 MB, 9323 files batched, 501 (7014) added so far); re-opening (prior size: 33090.1 KB)
+0011.615 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 7100 files added (on-disk size: 36871.9 KB)
+0011.625 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 7200 files added (on-disk size: 36871.9 KB)
+0011.635 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 7300 files added (on-disk size: 36871.9 KB)
+0011.649 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 7400 files added (on-disk size: 36871.9 KB)
+0011.663 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 7500 files added (on-disk size: 36871.9 KB)
+0011.672 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.6 MB, 9323 files batched, 501 (7515) added so far); re-opening (prior size: 36871.9 KB)
+0012.089 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 7600 files added (on-disk size: 39180.6 KB)
+0012.100 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 7700 files added (on-disk size: 39180.6 KB)
+0012.121 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 7800 files added (on-disk size: 39180.6 KB)
+0012.142 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 7900 files added (on-disk size: 39180.6 KB)
+0012.153 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 8000 files added (on-disk size: 39180.6 KB)
+0012.167 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.6 MB, 9323 files batched, 501 (8016) added so far); re-opening (prior size: 39180.6 KB)
+0012.364 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 8100 files added (on-disk size: 39902.2 KB)
+0012.377 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 8200 files added (on-disk size: 39902.2 KB)
+0012.390 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 8300 files added (on-disk size: 39902.2 KB)
+0012.401 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 8400 files added (on-disk size: 39902.2 KB)
+0012.411 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 8500 files added (on-disk size: 39902.2 KB)
+0012.422 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.3 MB, 9323 files batched, 501 (8517) added so far); re-opening (prior size: 39902.2 KB)
+0012.665 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 8600 files added (on-disk size: 40982 KB)
+0012.679 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 8700 files added (on-disk size: 40982 KB)
+0012.690 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 8800 files added (on-disk size: 40982 KB)
+0012.699 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 8900 files added (on-disk size: 40982 KB)
+0012.711 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 9000 files added (on-disk size: 40982 KB)
+0012.724 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.8 MB, 9323 files batched, 501 (9018) added so far); re-opening (prior size: 40982 KB)
+0013.792 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 9100 files added (on-disk size: 44627.2 KB)
+0013.806 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 9200 files added (on-disk size: 44627.2 KB)
+0013.816 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip.tmp: 9300 files added (on-disk size: 44627.2 KB)
+0014.910 (0) Created plugins zip (0) - 46143.3 KB in 14.5 s (3188.9 KB/s) (sha1: 62efcc04dd58ce5041ddd9ca5ff3145314b843f9, sha256: 2f8e085942b86d375c9ceaab0bfec57b3c5d751f027836b90b9042425f143b72)
+0014.928 (0) Beginning creation of dump of themes (split every: 400 MB)
+0014.992 (0) Total entities for the zip file: 117 directories, 558 files (0 skipped as non-modified), 8 MB
+0015.002 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0015.011 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0015.024 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0015.037 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0015.047 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0015.055 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.5 MB, 558 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0015.292 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-themes.zip.tmp: size is now: 5.00 MB
+0015.416 (0) Created themes zip (0) - 5270.8 KB in 0.4 s (11895 KB/s) (sha1: 25a7c54098ecf185a226170ae5f1b9308d1b90eb, sha256: 140587019426f9e07719a5c5b2f98863abeced1186d0edf3d9452ac5f4a3cb04)
+0015.436 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0015.448 (0) Looking for candidates to back up in: /home/smallid4/public_html/wp-content/uploads
+0015.458 (0) finding files: 2014: adding to list (1)
+0015.467 (0) finding files: 2017: adding to list (2)
+0015.477 (0) finding files: 2015: adding to list (3)
+0015.489 (0) finding files: woocommerce_uploads: adding to list (4)
+0015.500 (0) finding files: siteorigin-widgets: adding to list (5)
+0015.508 (0) finding files: js_composer: adding to list (6)
+0015.518 (0) finding files: 2016: adding to list (7)
+0015.530 (0) finding files: revslider: adding to list (8)
+0015.540 (0) finding files: wc-logs: adding to list (9)
+0015.548 (0) finding files: 2018: adding to list (10)
+0015.558 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0015.663 (0) Total entities for the zip file: 216 directories, 6593 files (0 skipped as non-modified), 712.6 MB
+0015.673 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0015.683 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0015.696 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.4 MB, 6593 files batched, 276 (276) added so far); re-opening (prior size: 0 KB)
+0016.844 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: size is now: 25.50 MB
+0016.874 (0) A useful amount of data was added after this amount of zip processing: 1.5 s (normalised: 1.5 s, rate: 16782.6 KB/s)
+0016.895 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.5487101078033, normalised_time=1.5253850029299, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=103112591)
+0016.915 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 300 files added (on-disk size: 26092.6 KB)
+0016.925 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 400 files added (on-disk size: 26092.6 KB)
+0016.938 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 500 files added (on-disk size: 26092.6 KB)
+0016.951 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 600 files added (on-disk size: 26092.6 KB)
+0016.960 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 700 files added (on-disk size: 26092.6 KB)
+0016.970 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (55.1 MB, 6593 files batched, 501 (777) added so far); re-opening (prior size: 26092.6 KB)
+0024.344 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: size is now: 80.70 MB
+0024.362 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 800 files added (on-disk size: 82645.3 KB)
+0024.376 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 900 files added (on-disk size: 82645.3 KB)
+0024.387 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 1000 files added (on-disk size: 82645.3 KB)
+0024.397 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 1100 files added (on-disk size: 82645.3 KB)
+0024.408 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 1200 files added (on-disk size: 82645.3 KB)
+0024.421 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (66.6 MB, 6593 files batched, 501 (1278) added so far); re-opening (prior size: 82645.3 KB)
+0034.557 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: size is now: 147.40 MB
+0034.583 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 1300 files added (on-disk size: 150967.7 KB)
+0034.596 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 1400 files added (on-disk size: 150967.7 KB)
+0034.608 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 1500 files added (on-disk size: 150967.7 KB)
+0034.617 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 1600 files added (on-disk size: 150967.7 KB)
+0034.628 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 1700 files added (on-disk size: 150967.7 KB)
+0034.641 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (60.3 MB, 6593 files batched, 501 (1779) added so far); re-opening (prior size: 150967.7 KB)
+0044.277 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: size is now: 207.90 MB
+0044.306 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 1800 files added (on-disk size: 212867 KB)
+0044.319 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 1900 files added (on-disk size: 212867 KB)
+0044.329 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 2000 files added (on-disk size: 212867 KB)
+0044.339 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 2100 files added (on-disk size: 212867 KB)
+0044.351 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 2200 files added (on-disk size: 212867 KB)
+0044.364 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (53 MB, 6593 files batched, 501 (2280) added so far); re-opening (prior size: 212867 KB)
+0050.864 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: size is now: 261.00 MB
+0050.896 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 2300 files added (on-disk size: 267248 KB)
+0050.905 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 2400 files added (on-disk size: 267248 KB)
+0050.916 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 2500 files added (on-disk size: 267248 KB)
+0050.930 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 2600 files added (on-disk size: 267248 KB)
+0050.941 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 2700 files added (on-disk size: 267248 KB)
+0050.951 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (79.3 MB, 6593 files batched, 501 (2781) added so far); re-opening (prior size: 267248 KB)
+0058.250 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: size is now: 340.30 MB
+0058.275 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 2800 files added (on-disk size: 348515.2 KB)
+0058.305 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 2900 files added (on-disk size: 348515.2 KB)
+0058.317 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 3000 files added (on-disk size: 348515.2 KB)
+0058.328 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 3100 files added (on-disk size: 348515.2 KB)
+0058.342 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: 3200 files added (on-disk size: 348515.2 KB)
+0058.362 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (54.3 MB, 462 (3243) files added so far); last ratio: 1; re-opening (prior size: 348515.2 KB)
+0065.681 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip.tmp: size is now: 394.70 MB
+0065.701 (0) Zip size is at/near split limit (394.7 MB / 400 MB) - bumping index (from: 0)
+0069.022 (0) Created uploads zip (0) - 404169.4 KB in 50.1 s (8066.2 KB/s) (checksums: sha1: 60fd0f279398f409a83dab1fdb7728019257b253, sha256: 8330f91a98b637317ed344469569893ba97d7169a6d94e4f2cc9a115df00d968)
+0069.038 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (3244) files added so far); re-opening (prior size: 0 KB)
+0069.054 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: size is now: 0.00 MB
+0069.076 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 3300 files added (on-disk size: 8.7 KB)
+0069.086 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 3400 files added (on-disk size: 8.7 KB)
+0069.100 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 3500 files added (on-disk size: 8.7 KB)
+0069.113 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 3600 files added (on-disk size: 8.7 KB)
+0069.123 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 3700 files added (on-disk size: 8.7 KB)
+0069.132 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (60.7 MB, 6593 files batched, 501 (3745) added so far); re-opening (prior size: 8.7 KB)
+0069.369 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: size is now: 60.80 MB
+0069.398 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 3800 files added (on-disk size: 62304.8 KB)
+0069.410 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 3900 files added (on-disk size: 62304.8 KB)
+0069.422 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 4000 files added (on-disk size: 62304.8 KB)
+0069.431 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 4100 files added (on-disk size: 62304.8 KB)
+0069.443 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 4200 files added (on-disk size: 62304.8 KB)
+0069.455 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (48.4 MB, 6593 files batched, 501 (4246) added so far); re-opening (prior size: 62304.8 KB)
+0069.693 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: size is now: 109.40 MB
+0069.725 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 4300 files added (on-disk size: 112022 KB)
+0069.737 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 4400 files added (on-disk size: 112022 KB)
+0069.746 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 4500 files added (on-disk size: 112022 KB)
+0069.758 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 4600 files added (on-disk size: 112022 KB)
+0069.771 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 4700 files added (on-disk size: 112022 KB)
+0069.782 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (73.4 MB, 6593 files batched, 501 (4747) added so far); re-opening (prior size: 112022 KB)
+0070.318 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: size is now: 180.80 MB
+0070.339 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 4800 files added (on-disk size: 185094.4 KB)
+0070.354 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 4900 files added (on-disk size: 185094.4 KB)
+0070.366 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 5000 files added (on-disk size: 185094.4 KB)
+0070.376 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 5100 files added (on-disk size: 185094.4 KB)
+0070.389 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 5200 files added (on-disk size: 185094.4 KB)
+0070.403 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (43 MB, 6593 files batched, 501 (5248) added so far); re-opening (prior size: 185094.4 KB)
+0074.149 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: size is now: 221.60 MB
+0074.176 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 5300 files added (on-disk size: 226931.5 KB)
+0074.189 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 5400 files added (on-disk size: 226931.5 KB)
+0074.201 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 5500 files added (on-disk size: 226931.5 KB)
+0074.214 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 5600 files added (on-disk size: 226931.5 KB)
+0074.225 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 5700 files added (on-disk size: 226931.5 KB)
+0074.238 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.1 MB, 6593 files batched, 501 (5749) added so far); re-opening (prior size: 226931.5 KB)
+0077.624 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 5800 files added (on-disk size: 246614.4 KB)
+0077.635 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 5900 files added (on-disk size: 246614.4 KB)
+0077.646 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 6000 files added (on-disk size: 246614.4 KB)
+0077.660 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 6100 files added (on-disk size: 246614.4 KB)
+0077.671 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 6200 files added (on-disk size: 246614.4 KB)
+0077.680 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (45 MB, 6593 files batched, 501 (6250) added so far); re-opening (prior size: 246614.4 KB)
+0081.243 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 6300 files added (on-disk size: 292767.7 KB)
+0081.256 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 6400 files added (on-disk size: 292767.7 KB)
+0081.266 (0) Zip: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip.tmp: 6500 files added (on-disk size: 292767.7 KB)
+0089.030 (0) Created uploads zip (1) - 322597.1 KB in 20 s (16130.2 KB/s) (sha1: d526d28d6ae3e5fb7bcb07f0d034515fe9849d27, sha256: 86e57ad9c0e39ea12c3c6884499dba752cf603a11b336c5ab7f02f17595cb07a)
+0089.054 (0) Beginning backup of other directories found in the content directory (index: 0)
+0089.063 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0089.071 (0) Looking for candidates to back up in: /home/smallid4/public_html/wp-content
+0089.082 (0) finding files: index.php: adding to list (1)
+0089.095 (0) finding files: themes: skipping: this is the themes directory
+0089.103 (0) finding files: updraft: skipping: this is the updraft directory
+0089.111 (0) finding files: plugins: skipping: this is the plugins directory
+0089.123 (0) finding files: advanced-cache.php: adding to list (2)
+0089.135 (0) finding files: upgrade: skipping: excluded by options
+0089.144 (0) finding files: uploads: skipping: this is the uploads directory
+0089.152 (0) finding files: wp-cache-config.php: adding to list (3)
+0089.209 (0) Total entities for the zip file: 0 directories, 3 files (0 skipped as non-modified), 0 MB
+0089.221 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-others.zip.tmp: size is now: 0.00 MB
+0089.263 (0) Created others zip (0) - 2.8 KB in 0.1 s (42.5 KB/s) (sha1: 1ef500c8cfdf3e47e37be093a30e861206e92fca, sha256: 4c96d5466609b14097c50f2e5b46f14c19531a0168e4ba24e09d7e4759433e45)
+0089.305 (0) Saving backup status to database (elements: 9)
+0089.325 (0) Beginning creation of database dump (WordPress DB)
+0089.346 (0) Testing: /usr/bin/mysqldump
+0089.362 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1189 bytes total)
+0089.373 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0089.408 (0) Table wp_options: Total expected rows (approximate): 9378
+0089.524 (0) Table wp_options: binary mysqldump finished (writes: 34) in 0.10 seconds
+0089.537 (0) Table wp_options: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_options.table.gz - 581.5 KB)
+0089.568 (0) Table wp_users: Total expected rows (approximate): 934
+0089.668 (0) Table wp_users: Total rows added: 3142 in 0.09 seconds
+0089.675 (0) Table wp_users: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_users.table.gz - 191.5 KB)
+0089.708 (0) Table wp_usermeta: Total expected rows (approximate): 29275
+0089.921 (0) Table wp_usermeta: binary mysqldump finished (writes: 37) in 0.21 seconds
+0089.940 (0) Table wp_usermeta: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_usermeta.table.gz - 1058.1 KB)
+0089.970 (0) Table wp_commentmeta: Total expected rows (approximate): 3432
+0090.015 (0) Table wp_commentmeta: Total rows added: 3432 in 0.03 seconds
+0090.027 (0) Table wp_commentmeta: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_commentmeta.table.gz - 17.2 KB)
+0090.057 (0) Table wp_comments: Total expected rows (approximate): 12407
+0090.200 (0) Table wp_comments: binary mysqldump finished (writes: 52) in 0.13 seconds
+0090.214 (0) Table wp_comments: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_comments.table.gz - 407.5 KB)
+0090.246 (0) Table wp_links: Total expected rows (approximate): 0
+0090.259 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0090.271 (0) Table wp_links: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_links.table.gz - 0.4 KB)
+0090.300 (0) Table wp_postmeta: Total expected rows (approximate): 240541
+0090.321 (0) [Warning] Table wp_postmeta has very many rows (240541) - we hope your web hosting company gives you enough resources to dump out that table in the backup If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+0091.582 (0) Table wp_postmeta: binary mysqldump finished (writes: 67) in 1.25 seconds
+0093.522 (0) Table wp_postmeta: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_postmeta.table.gz - 5182.7 KB)
+0093.594 (0) Table wp_posts: Total expected rows (approximate): 5372
+0094.760 (0) Table wp_posts: Total rows added: 16155 in 1.16 seconds
+0094.782 (0) Table wp_posts: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_posts.table.gz - 1343 KB)
+0094.818 (0) Table wp_term_relationships: Total expected rows (approximate): 1904
+0094.841 (0) Table wp_term_relationships: Total rows added: 2141 in 0.01 seconds
+0094.853 (0) Table wp_term_relationships: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_term_relationships.table.gz - 5.9 KB)
+0094.891 (0) Table wp_term_taxonomy: Total expected rows (approximate): 49
+0094.905 (0) Table wp_term_taxonomy: Total rows added: 51 in 0.00 seconds
+0094.918 (0) Table wp_term_taxonomy: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_term_taxonomy.table.gz - 2 KB)
+0094.949 (0) Table wp_termmeta: Total expected rows (approximate): 60
+0094.964 (0) Table wp_termmeta: Total rows added: 60 in 0.00 seconds
+0094.974 (0) Table wp_termmeta: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_termmeta.table.gz - 0.8 KB)
+0095.016 (0) Table wp_terms: Total expected rows (approximate): 49
+0095.026 (0) Table wp_terms: Total rows added: 51 in 0.00 seconds
+0095.036 (0) Table wp_terms: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_terms.table.gz - 1.2 KB)
+0095.072 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 121125
+0095.269 (0) Table wp_woocommerce_order_itemmeta: binary mysqldump finished (writes: 36) in 0.19 seconds
+0095.282 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_order_itemmeta.table.gz - 661.4 KB)
+0095.315 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 11308
+0095.352 (0) Table wp_woocommerce_payment_tokenmeta: binary mysqldump finished (writes: 32) in 0.02 seconds
+0095.365 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 72.8 KB)
+0095.397 (0) Table wp_ac_abandoned_cart_history_lite: Total expected rows (approximate): 1091
+0095.434 (0) Table wp_ac_abandoned_cart_history_lite: Total rows added: 1091 in 0.02 seconds
+0095.443 (0) Table wp_ac_abandoned_cart_history_lite: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_ac_abandoned_cart_history_lite.table.gz - 24.3 KB)
+0095.479 (0) Table wp_ac_email_templates_lite: Total expected rows (approximate): 1
+0095.489 (0) Table wp_ac_email_templates_lite: Total rows added: 1 in 0.00 seconds
+0095.497 (0) Table wp_ac_email_templates_lite: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_ac_email_templates_lite.table.gz - 1 KB)
+0095.541 (0) Table wp_ac_guest_abandoned_cart_history_lite: Total expected rows (approximate): 85
+0095.558 (0) Table wp_ac_guest_abandoned_cart_history_lite: Total rows added: 85 in 0.00 seconds
+0095.571 (0) Table wp_ac_guest_abandoned_cart_history_lite: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_ac_guest_abandoned_cart_history_lite.table.gz - 3 KB)
+0095.604 (0) Table wp_ac_sent_history_lite: Total expected rows (approximate): 87
+0095.618 (0) Table wp_ac_sent_history_lite: Total rows added: 87 in 0.00 seconds
+0095.628 (0) Table wp_ac_sent_history_lite: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_ac_sent_history_lite.table.gz - 2.3 KB)
+0095.667 (0) Table wp_ak_params: Total expected rows (approximate): 1
+0095.679 (0) Table wp_ak_params: Total rows added: 1 in 0.00 seconds
+0095.687 (0) Table wp_ak_params: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_ak_params.table.gz - 0.3 KB)
+0095.726 (0) Table wp_ak_profiles: Total expected rows (approximate): 1
+0095.736 (0) Table wp_ak_profiles: Total rows added: 1 in 0.00 seconds
+0095.750 (0) Table wp_ak_profiles: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_ak_profiles.table.gz - 2.5 KB)
+0095.783 (0) Table wp_ak_stats: Total expected rows (approximate): 1
+0095.798 (0) Table wp_ak_stats: Total rows added: 1 in 0.00 seconds
+0095.813 (0) Table wp_ak_stats: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_ak_stats.table.gz - 0.7 KB)
+0095.844 (0) Table wp_ak_storage: Total expected rows (approximate): 2
+0095.858 (0) Table wp_ak_storage: Total rows added: 2 in 0.00 seconds
+0095.867 (0) Table wp_ak_storage: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_ak_storage.table.gz - 1.9 KB)
+0095.909 (0) Table wp_ak_users: Total expected rows (approximate): 0
+0095.921 (0) Table wp_ak_users: Total rows added: 0 in 0.00 seconds
+0095.930 (0) Table wp_ak_users: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_ak_users.table.gz - 0.3 KB)
+0095.965 (0) Table wp_akeeba_common: Total expected rows (approximate): 3
+0095.975 (0) Table wp_akeeba_common: Total rows added: 3 in 0.00 seconds
+0095.987 (0) Table wp_akeeba_common: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_akeeba_common.table.gz - 0.4 KB)
+0096.018 (0) Table wp_cb_contact_form: Total expected rows (approximate): 1
+0096.031 (0) Table wp_cb_contact_form: Total rows added: 1 in 0.00 seconds
+0096.044 (0) Table wp_cb_contact_form: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_cb_contact_form.table.gz - 0.3 KB)
+0096.076 (0) Table wp_cb_create_control_form: Total expected rows (approximate): 1
+0096.090 (0) Table wp_cb_create_control_form: Total rows added: 1 in 0.00 seconds
+0096.098 (0) Table wp_cb_create_control_form: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_cb_create_control_form.table.gz - 0.4 KB)
+0096.133 (0) Table wp_cb_dynamic_settings: Total expected rows (approximate): 7
+0096.142 (0) Table wp_cb_dynamic_settings: Total rows added: 7 in 0.00 seconds
+0096.152 (0) Table wp_cb_dynamic_settings: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_cb_dynamic_settings.table.gz - 0.4 KB)
+0096.188 (0) Table wp_cb_email_template_admin: Total expected rows (approximate): 2
+0096.198 (0) Table wp_cb_email_template_admin: Total rows added: 2 in 0.00 seconds
+0096.211 (0) Table wp_cb_email_template_admin: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_cb_email_template_admin.table.gz - 0.7 KB)
+0096.242 (0) Table wp_cb_form_settings_table: Total expected rows (approximate): 6
+0096.256 (0) Table wp_cb_form_settings_table: Total rows added: 6 in 0.00 seconds
+0096.268 (0) Table wp_cb_form_settings_table: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_cb_form_settings_table.table.gz - 0.5 KB)
+0096.302 (0) Table wp_cb_frontend_data_table: Total expected rows (approximate): 0
+0096.314 (0) Table wp_cb_frontend_data_table: Total rows added: 0 in 0.00 seconds
+0096.325 (0) Table wp_cb_frontend_data_table: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_cb_frontend_data_table.table.gz - 0.3 KB)
+0096.360 (0) Table wp_cb_frontend_forms_table: Total expected rows (approximate): 0
+0096.370 (0) Table wp_cb_frontend_forms_table: Total rows added: 0 in 0.00 seconds
+0096.377 (0) Table wp_cb_frontend_forms_table: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_cb_frontend_forms_table.table.gz - 0.3 KB)
+0096.414 (0) Table wp_cb_layout_settings_table: Total expected rows (approximate): 50
+0096.425 (0) Table wp_cb_layout_settings_table: Total rows added: 50 in 0.00 seconds
+0096.438 (0) Table wp_cb_layout_settings_table: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_cb_layout_settings_table.table.gz - 0.8 KB)
+0096.471 (0) Table wp_cb_licensing: Total expected rows (approximate): 1
+0096.485 (0) Table wp_cb_licensing: Total rows added: 1 in 0.00 seconds
+0096.498 (0) Table wp_cb_licensing: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_cb_licensing.table.gz - 0.4 KB)
+0096.530 (0) Table wp_cb_roles_capability: Total expected rows (approximate): 15
+0096.544 (0) Table wp_cb_roles_capability: Total rows added: 15 in 0.00 seconds
+0096.553 (0) Table wp_cb_roles_capability: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_cb_roles_capability.table.gz - 0.4 KB)
+0096.589 (0) Table wp_contactformmaker: Total expected rows (approximate): 9
+0096.602 (0) Table wp_contactformmaker: Total rows added: 9 in 0.00 seconds
+0096.611 (0) Table wp_contactformmaker: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_contactformmaker.table.gz - 6.6 KB)
+0096.647 (0) Table wp_contactformmaker_blocked: Total expected rows (approximate): 0
+0096.657 (0) Table wp_contactformmaker_blocked: Total rows added: 0 in 0.00 seconds
+0096.670 (0) Table wp_contactformmaker_blocked: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_contactformmaker_blocked.table.gz - 0.3 KB)
+0096.703 (0) Table wp_contactformmaker_submits: Total expected rows (approximate): 0
+0096.716 (0) Table wp_contactformmaker_submits: Total rows added: 0 in 0.00 seconds
+0096.729 (0) Table wp_contactformmaker_submits: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_contactformmaker_submits.table.gz - 0.3 KB)
+0096.762 (0) Table wp_contactformmaker_themes: Total expected rows (approximate): 37
+0096.788 (0) Table wp_contactformmaker_themes: Total rows added: 37 in 0.01 seconds
+0096.797 (0) Table wp_contactformmaker_themes: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_contactformmaker_themes.table.gz - 22.7 KB)
+0096.859 (0) Table wp_contactformmaker_views: Total expected rows (approximate): 0
+0096.877 (0) Table wp_contactformmaker_views: Total rows added: 0 in 0.00 seconds
+0096.900 (0) Table wp_contactformmaker_views: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_contactformmaker_views.table.gz - 0.3 KB)
+0096.931 (0) Table wp_failed_jobs: Total expected rows (approximate): 0
+0096.945 (0) Table wp_failed_jobs: Total rows added: 0 in 0.00 seconds
+0096.953 (0) Table wp_failed_jobs: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_failed_jobs.table.gz - 0.3 KB)
+0096.989 (0) Table wp_litespeed_optimizer: Total expected rows (approximate): 42
+0096.999 (0) Table wp_litespeed_optimizer: Total rows added: 42 in 0.00 seconds
+0097.009 (0) Table wp_litespeed_optimizer: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_litespeed_optimizer.table.gz - 1.8 KB)
+0097.044 (0) Table wp_mailchimp_carts: Total expected rows (approximate): 408
+0097.061 (0) Table wp_mailchimp_carts: Total rows added: 408 in 0.01 seconds
+0097.074 (0) Table wp_mailchimp_carts: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_mailchimp_carts.table.gz - 17.6 KB)
+0097.106 (0) Table wp_queue: Total expected rows (approximate): 51571
+0097.553 (0) Table wp_queue: binary mysqldump finished (writes: 62) in 0.43 seconds
+0097.573 (0) Table wp_queue: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_queue.table.gz - 1190.6 KB)
+0097.608 (0) Table wp_redirection_404: Total expected rows (approximate): 28545
+0097.699 (0) Table wp_redirection_404: binary mysqldump finished (writes: 39) in 0.08 seconds
+0097.707 (0) Table wp_redirection_404: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_redirection_404.table.gz - 271.6 KB)
+0097.740 (0) Table wp_redirection_groups: Total expected rows (approximate): 2
+0097.749 (0) Table wp_redirection_groups: Total rows added: 2 in 0.00 seconds
+0097.760 (0) Table wp_redirection_groups: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_redirection_groups.table.gz - 0.5 KB)
+0097.791 (0) Table wp_redirection_items: Total expected rows (approximate): 92
+0097.806 (0) Table wp_redirection_items: Total rows added: 92 in 0.00 seconds
+0097.818 (0) Table wp_redirection_items: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_redirection_items.table.gz - 3.2 KB)
+0097.847 (0) Table wp_redirection_logs: Total expected rows (approximate): 104
+0097.862 (0) Table wp_redirection_logs: Total rows added: 104 in 0.00 seconds
+0097.870 (0) Table wp_redirection_logs: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_redirection_logs.table.gz - 3.5 KB)
+0097.903 (0) Table wp_revslider_css: Total expected rows (approximate): 112
+0097.914 (0) Table wp_revslider_css: Total rows added: 112 in 0.00 seconds
+0097.923 (0) Table wp_revslider_css: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_revslider_css.table.gz - 5 KB)
+0097.955 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0097.964 (0) Table wp_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0097.976 (0) Table wp_revslider_layer_animations: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_revslider_layer_animations.table.gz - 0.3 KB)
+0098.005 (0) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0098.018 (0) Table wp_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0098.030 (0) Table wp_revslider_navigations: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_revslider_navigations.table.gz - 0.3 KB)
+0098.059 (0) Table wp_revslider_sliders: Total expected rows (approximate): 1
+0098.072 (0) Table wp_revslider_sliders: Total rows added: 1 in 0.00 seconds
+0098.080 (0) Table wp_revslider_sliders: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_revslider_sliders.table.gz - 2.4 KB)
+0098.113 (0) Table wp_revslider_slides: Total expected rows (approximate): 1
+0098.122 (0) Table wp_revslider_slides: Total rows added: 1 in 0.00 seconds
+0098.131 (0) Table wp_revslider_slides: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_revslider_slides.table.gz - 4.4 KB)
+0098.164 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+0098.173 (0) Table wp_revslider_static_slides: Total rows added: 0 in 0.00 seconds
+0098.185 (0) Table wp_revslider_static_slides: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_revslider_static_slides.table.gz - 0.3 KB)
+0098.214 (0) Table wp_say_what_strings: Total expected rows (approximate): 1
+0098.226 (0) Table wp_say_what_strings: Total rows added: 1 in 0.00 seconds
+0098.238 (0) Table wp_say_what_strings: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_say_what_strings.table.gz - 0.4 KB)
+0098.267 (0) Table wp_sg_age_restriction_popup: Total expected rows (approximate): 0
+0098.280 (0) Table wp_sg_age_restriction_popup: Total rows added: 0 in 0.00 seconds
+0098.288 (0) Table wp_sg_age_restriction_popup: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_age_restriction_popup.table.gz - 0.3 KB)
+0098.320 (0) Table wp_sg_contact_form_popup: Total expected rows (approximate): 0
+0098.329 (0) Table wp_sg_contact_form_popup: Total rows added: 0 in 0.00 seconds
+0098.337 (0) Table wp_sg_contact_form_popup: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_contact_form_popup.table.gz - 0.3 KB)
+0098.369 (0) Table wp_sg_countdown_popup: Total expected rows (approximate): 0
+0098.378 (0) Table wp_sg_countdown_popup: Total rows added: 0 in 0.00 seconds
+0098.391 (0) Table wp_sg_countdown_popup: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_countdown_popup.table.gz - 0.3 KB)
+0098.421 (0) Table wp_sg_fblike_popup: Total expected rows (approximate): 0
+0098.434 (0) Table wp_sg_fblike_popup: Total rows added: 0 in 0.00 seconds
+0098.446 (0) Table wp_sg_fblike_popup: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_fblike_popup.table.gz - 0.3 KB)
+0098.475 (0) Table wp_sg_html_popup: Total expected rows (approximate): 2
+0098.488 (0) Table wp_sg_html_popup: Total rows added: 2 in 0.00 seconds
+0098.497 (0) Table wp_sg_html_popup: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_html_popup.table.gz - 0.6 KB)
+0098.531 (0) Table wp_sg_iframe_popup: Total expected rows (approximate): 0
+0098.539 (0) Table wp_sg_iframe_popup: Total rows added: 0 in 0.00 seconds
+0098.548 (0) Table wp_sg_iframe_popup: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_iframe_popup.table.gz - 0.2 KB)
+0098.581 (0) Table wp_sg_image_popup: Total expected rows (approximate): 0
+0098.590 (0) Table wp_sg_image_popup: Total rows added: 0 in 0.00 seconds
+0098.602 (0) Table wp_sg_image_popup: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_image_popup.table.gz - 0.3 KB)
+0098.631 (0) Table wp_sg_popup: Total expected rows (approximate): 2
+0098.644 (0) Table wp_sg_popup: Total rows added: 2 in 0.00 seconds
+0098.657 (0) Table wp_sg_popup: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_popup.table.gz - 1.7 KB)
+0098.687 (0) Table wp_sg_popup_addons: Total expected rows (approximate): 0
+0098.700 (0) Table wp_sg_popup_addons: Total rows added: 1 in 0.00 seconds
+0098.710 (0) Table wp_sg_popup_addons: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_popup_addons.table.gz - 0.5 KB)
+0098.742 (0) Table wp_sg_popup_addons_connection: Total expected rows (approximate): 0
+0098.751 (0) Table wp_sg_popup_addons_connection: Total rows added: 0 in 0.00 seconds
+0098.759 (0) Table wp_sg_popup_addons_connection: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_popup_addons_connection.table.gz - 0.3 KB)
+0098.791 (0) Table wp_sg_popup_in_pages: Total expected rows (approximate): 0
+0098.800 (0) Table wp_sg_popup_in_pages: Total rows added: 1 in 0.00 seconds
+0098.821 (0) Table wp_sg_popup_in_pages: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_popup_in_pages.table.gz - 0.3 KB)
+0098.850 (0) Table wp_sg_popup_settings: Total expected rows (approximate): 0
+0098.863 (0) Table wp_sg_popup_settings: Total rows added: 1 in 0.00 seconds
+0098.872 (0) Table wp_sg_popup_settings: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_popup_settings.table.gz - 0.4 KB)
+0098.905 (0) Table wp_sg_shortCode_popup: Total expected rows (approximate): 0
+0098.914 (0) Table wp_sg_shortCode_popup: Total rows added: 0 in 0.00 seconds
+0098.923 (0) Table wp_sg_shortCode_popup: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_shortCode_popup.table.gz - 0.2 KB)
+0098.956 (0) Table wp_sg_social_popup: Total expected rows (approximate): 0
+0098.964 (0) Table wp_sg_social_popup: Total rows added: 0 in 0.00 seconds
+0098.976 (0) Table wp_sg_social_popup: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_social_popup.table.gz - 0.3 KB)
+0099.006 (0) Table wp_sg_subscribers: Total expected rows (approximate): 0
+0099.022 (0) Table wp_sg_subscribers: Total rows added: 0 in 0.00 seconds
+0099.034 (0) Table wp_sg_subscribers: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_subscribers.table.gz - 0.3 KB)
+0099.064 (0) Table wp_sg_subscription_error_log: Total expected rows (approximate): 0
+0099.077 (0) Table wp_sg_subscription_error_log: Total rows added: 0 in 0.00 seconds
+0099.085 (0) Table wp_sg_subscription_error_log: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_subscription_error_log.table.gz - 0.3 KB)
+0099.119 (0) Table wp_sg_subscription_popup: Total expected rows (approximate): 0
+0099.128 (0) Table wp_sg_subscription_popup: Total rows added: 0 in 0.00 seconds
+0099.136 (0) Table wp_sg_subscription_popup: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_subscription_popup.table.gz - 0.3 KB)
+0099.179 (0) Table wp_sg_video_popup: Total expected rows (approximate): 0
+0099.192 (0) Table wp_sg_video_popup: Total rows added: 0 in 0.00 seconds
+0099.204 (0) Table wp_sg_video_popup: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_video_popup.table.gz - 0.3 KB)
+0099.232 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0099.245 (0) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0099.253 (0) Table wp_woocommerce_api_keys: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0099.286 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 2
+0099.295 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 2 in 0.00 seconds
+0099.303 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0099.336 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0099.345 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0099.357 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0099.387 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0099.399 (0) Table wp_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0099.411 (0) Table wp_woocommerce_log: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0099.441 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 17897
+0099.483 (0) Table wp_woocommerce_order_items: binary mysqldump finished (writes: 31) in 0.03 seconds
+0099.494 (0) Table wp_woocommerce_order_items: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_order_items.table.gz - 91.6 KB)
+0099.528 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 2827
+0099.575 (0) Table wp_woocommerce_payment_tokens: Total rows added: 2827 in 0.04 seconds
+0099.585 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_payment_tokens.table.gz - 49.5 KB)
+0099.616 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 90
+0099.631 (0) Table wp_woocommerce_sessions: Total rows added: 90 in 0.00 seconds
+0099.643 (0) Table wp_woocommerce_sessions: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_sessions.table.gz - 11.5 KB)
+0099.673 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 1
+0099.686 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 1 in 0.00 seconds
+0099.696 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0099.727 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 2
+0099.738 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 2 in 0.00 seconds
+0099.746 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0099.779 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 1
+0099.788 (0) Table wp_woocommerce_shipping_zones: Total rows added: 1 in 0.00 seconds
+0099.798 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_shipping_zones.table.gz - 0.4 KB)
+0099.829 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0099.839 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0099.852 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.3 KB)
+0099.881 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0099.894 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0099.904 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0099.936 (0) Table wp_woocommerce_termmeta: Total expected rows (approximate): 0
+0099.946 (0) Table wp_woocommerce_termmeta: Total rows added: 0 in 0.00 seconds
+0099.954 (0) Table wp_woocommerce_termmeta: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_termmeta.table.gz - 0.3 KB)
+0099.987 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 361
+0100.000 (0) Table wp_yoast_seo_links: Total rows added: 361 in 0.00 seconds
+0100.011 (0) Table wp_yoast_seo_links: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_yoast_seo_links.table.gz - 5.2 KB)
+0100.048 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 389
+0100.085 (0) Table wp_yoast_seo_meta: Total rows added: 389 in 0.00 seconds
+0100.095 (0) Table wp_yoast_seo_meta: finishing file (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_yoast_seo_meta.table.gz - 1.6 KB)
+0100.118 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_options.table.gz (1/87): adding to final database dump
+0100.216 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_users.table.gz (2/87): adding to final database dump
+0100.253 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_usermeta.table.gz (3/87): adding to final database dump
+0100.418 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_commentmeta.table.gz (4/87): adding to final database dump
+0100.443 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_comments.table.gz (5/87): adding to final database dump
+0100.540 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_links.table.gz (6/87): adding to final database dump
+0100.551 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_postmeta.table.gz (7/87): adding to final database dump
+0101.448 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_posts.table.gz (8/87): adding to final database dump
+0101.729 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_term_relationships.table.gz (9/87): adding to final database dump
+0101.745 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_term_taxonomy.table.gz (10/87): adding to final database dump
+0101.757 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_termmeta.table.gz (11/87): adding to final database dump
+0101.780 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_terms.table.gz (12/87): adding to final database dump
+0101.798 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_order_itemmeta.table.gz (13/87): adding to final database dump
+0101.958 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_payment_tokenmeta.table.gz (14/87): adding to final database dump
+0101.981 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_ac_abandoned_cart_history_lite.table.gz (15/87): adding to final database dump
+0101.999 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_ac_email_templates_lite.table.gz (16/87): adding to final database dump
+0102.013 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_ac_guest_abandoned_cart_history_lite.table.gz (17/87): adding to final database dump
+0102.025 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_ac_sent_history_lite.table.gz (18/87): adding to final database dump
+0102.035 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_ak_params.table.gz (19/87): adding to final database dump
+0102.048 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_ak_profiles.table.gz (20/87): adding to final database dump
+0102.060 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_ak_stats.table.gz (21/87): adding to final database dump
+0102.071 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_ak_storage.table.gz (22/87): adding to final database dump
+0102.081 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_ak_users.table.gz (23/87): adding to final database dump
+0102.092 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_akeeba_common.table.gz (24/87): adding to final database dump
+0102.105 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_cb_contact_form.table.gz (25/87): adding to final database dump
+0102.117 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_cb_create_control_form.table.gz (26/87): adding to final database dump
+0102.126 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_cb_dynamic_settings.table.gz (27/87): adding to final database dump
+0102.137 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_cb_email_template_admin.table.gz (28/87): adding to final database dump
+0102.150 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_cb_form_settings_table.table.gz (29/87): adding to final database dump
+0102.162 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_cb_frontend_data_table.table.gz (30/87): adding to final database dump
+0102.171 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_cb_frontend_forms_table.table.gz (31/87): adding to final database dump
+0102.182 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_cb_layout_settings_table.table.gz (32/87): adding to final database dump
+0102.195 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_cb_licensing.table.gz (33/87): adding to final database dump
+0102.206 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_cb_roles_capability.table.gz (34/87): adding to final database dump
+0102.216 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_contactformmaker.table.gz (35/87): adding to final database dump
+0102.228 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_contactformmaker_blocked.table.gz (36/87): adding to final database dump
+0102.241 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_contactformmaker_submits.table.gz (37/87): adding to final database dump
+0102.252 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_contactformmaker_themes.table.gz (38/87): adding to final database dump
+0102.268 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_contactformmaker_views.table.gz (39/87): adding to final database dump
+0102.280 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_failed_jobs.table.gz (40/87): adding to final database dump
+0102.293 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_litespeed_optimizer.table.gz (41/87): adding to final database dump
+0102.304 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_mailchimp_carts.table.gz (42/87): adding to final database dump
+0102.317 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_queue.table.gz (43/87): adding to final database dump
+0102.633 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_redirection_404.table.gz (44/87): adding to final database dump
+0102.695 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_redirection_groups.table.gz (45/87): adding to final database dump
+0102.705 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_redirection_items.table.gz (46/87): adding to final database dump
+0102.718 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_redirection_logs.table.gz (47/87): adding to final database dump
+0102.731 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_revslider_css.table.gz (48/87): adding to final database dump
+0102.741 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_revslider_layer_animations.table.gz (49/87): adding to final database dump
+0102.751 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_revslider_navigations.table.gz (50/87): adding to final database dump
+0102.763 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_revslider_sliders.table.gz (51/87): adding to final database dump
+0102.776 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_revslider_slides.table.gz (52/87): adding to final database dump
+0102.785 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_revslider_static_slides.table.gz (53/87): adding to final database dump
+0102.794 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_say_what_strings.table.gz (54/87): adding to final database dump
+0102.806 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_age_restriction_popup.table.gz (55/87): adding to final database dump
+0102.818 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_contact_form_popup.table.gz (56/87): adding to final database dump
+0102.827 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_countdown_popup.table.gz (57/87): adding to final database dump
+0102.834 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_fblike_popup.table.gz (58/87): adding to final database dump
+0102.846 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_html_popup.table.gz (59/87): adding to final database dump
+0102.859 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_iframe_popup.table.gz (60/87): adding to final database dump
+0102.867 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_image_popup.table.gz (61/87): adding to final database dump
+0102.875 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_popup.table.gz (62/87): adding to final database dump
+0102.887 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_popup_addons.table.gz (63/87): adding to final database dump
+0102.900 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_popup_addons_connection.table.gz (64/87): adding to final database dump
+0102.910 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_popup_in_pages.table.gz (65/87): adding to final database dump
+0102.918 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_popup_settings.table.gz (66/87): adding to final database dump
+0102.931 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_shortCode_popup.table.gz (67/87): adding to final database dump
+0102.942 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_social_popup.table.gz (68/87): adding to final database dump
+0102.949 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_subscribers.table.gz (69/87): adding to final database dump
+0102.958 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_subscription_error_log.table.gz (70/87): adding to final database dump
+0102.970 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_subscription_popup.table.gz (71/87): adding to final database dump
+0102.982 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_sg_video_popup.table.gz (72/87): adding to final database dump
+0102.990 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_api_keys.table.gz (73/87): adding to final database dump
+0102.999 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_attribute_taxonomies.table.gz (74/87): adding to final database dump
+0103.011 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (75/87): adding to final database dump
+0103.023 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_log.table.gz (76/87): adding to final database dump
+0103.031 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_order_items.table.gz (77/87): adding to final database dump
+0103.056 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_payment_tokens.table.gz (78/87): adding to final database dump
+0103.080 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_sessions.table.gz (79/87): adding to final database dump
+0103.095 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_shipping_zone_locations.table.gz (80/87): adding to final database dump
+0103.104 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_shipping_zone_methods.table.gz (81/87): adding to final database dump
+0103.112 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_shipping_zones.table.gz (82/87): adding to final database dump
+0103.124 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_tax_rate_locations.table.gz (83/87): adding to final database dump
+0103.136 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_tax_rates.table.gz (84/87): adding to final database dump
+0103.145 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_woocommerce_termmeta.table.gz (85/87): adding to final database dump
+0103.153 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_yoast_seo_links.table.gz (86/87): adding to final database dump
+0103.166 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db-table-wp_yoast_seo_meta.table.gz (87/87): adding to final database dump
+0103.179 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db.gz: finished writing out complete database file (11248 KB)
+0103.314 (0) Total database tables backed up: 87 (backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db.gz, size: 11531370, sha256)
+0103.357 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0103.365 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0103.375 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0103.387 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0103.399 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-others.zip: others: This file has not yet been successfully uploaded: will queue
+0103.407 (0) backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db.gz: db: This file has not yet been successfully uploaded: will queue
+0103.416 (0) Saving backup history. Total backup size: 770.9 MB
+0103.438 (0) Requesting upload of the files that have not yet been successfully uploaded (6)
+0103.467 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0103.479 (0) No remote despatch: user chose no remote backup service
+0103.496 (0) Recording as successfully uploaded: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-plugins.zip (60617a3d002d1ee30e8d86d58874edde)
+0103.545 (0) Recording as successfully uploaded: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-themes.zip (ffe645184ef9bfbfc87484ae8422e571)
+0103.585 (0) Recording as successfully uploaded: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads.zip (44ec5bfb14b830ad9cc73c67b22439d9)
+0103.627 (0) Recording as successfully uploaded: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-uploads2.zip (3fdb79cfcfb6d3c785db7078772207b1)
+0103.668 (0) Recording as successfully uploaded: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-others.zip (556d59a38ea9c1966840a5f8612e383b)
+0103.709 (0) Recording as successfully uploaded: backup_2018-06-16-2227_Small_Ideas_0bbf57c50942-db.gz (35cd8f1d056902118399c244331adc2c)
+0103.751 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0103.763 (0) Number of backup sets in history: 1; groups (db): 1
+0103.772 (0) Examining (for databases) backup set with group_id=0, nonce=0bbf57c50942, datestamp=1529152025 (Jun 16 2018 12:27:05)
+0103.780 (0) This backup set is the backup set just made, so will not be deleted.
+0103.780 (0) Number of backup sets in history: 1; groups (files): 1
+0103.792 (0) Examining (for files) backup set with nonce=0bbf57c50942, datestamp=1529152025 (Jun 16 2018 12:27:05)
+0103.792 (0) This backup set is the backup set just made, so will not be deleted.
+0103.804 (0) This backup set is the backup set just made, so will not be deleted.
+0103.804 (0) This backup set is the backup set just made, so will not be deleted.
+0103.804 (0) This backup set is the backup set just made, so will not be deleted.
+0103.804 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0103.813 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0103.833 (0) Resume backup (0bbf57c50942, 0): finish run
+0103.862 (0) Decremented the semaphore (fd) by 1
+0103.886 (0) Semaphore (fd) unlocked
+0103.894 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0103.931 (0) No email will/can be sent - the user has not configured an email address.
+0103.940 (0) The backup apparently succeeded and is now complete

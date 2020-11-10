@@ -1,0 +1,6 @@
+[22-Jan-2018 03:37:41 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentythirteen/404.php on line 10
+[04-Mar-2018 10:03:04 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentythirteen/404.php on line 10
+[08-Nov-2018 07:26:13 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentythirteen/index.php on line 17
+[08-Nov-2018 13:21:33 UTC] PHP Fatal error:  Call to undefined function post_password_required() in /home/smallid4/public_html/wp-content/themes/twentythirteen/comments.php on line 16
+[09-Apr-2019 03:40:57 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentythirteen/404.php on line 10
+[27-Aug-2019 06:48:10 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentythirteen/404.php on line 10

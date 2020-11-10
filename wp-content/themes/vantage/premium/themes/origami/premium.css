@@ -1,0 +1,25 @@
+.share-buttons{
+    float: right;
+    padding-top: 4px;
+    margin-right: -12px;
+    width: 40%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.below-content.tagged .share-buttons {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: -2px;
+}
+
+.share-buttons .network{
+    display: block;
+    float: left;
+    text-align: left;
+}
+
+.share-buttons .network > * {
+    display: block;
+}

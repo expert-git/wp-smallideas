@@ -1,0 +1,66 @@
+[21-Oct-2017 09:15:15 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[26-Nov-2017 13:36:43 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[22-Jan-2018 03:36:46 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[05-Feb-2018 00:11:00 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[10-Feb-2018 09:12:55 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[04-Mar-2018 23:11:58 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[11-Mar-2018 21:10:54 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[19-Mar-2018 02:36:40 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[20-Mar-2018 07:51:10 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[23-Mar-2018 01:42:55 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[12-Jun-2018 19:44:33 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[29-Jul-2018 09:50:55 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[29-Jul-2018 09:50:59 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[29-Aug-2018 05:44:40 UTC] PHP Notice:  Undefined index: wp_version in /home/smallid4/public_html/wp-content/themes/twentyseventeen/functions.php on line 15
+[29-Aug-2018 05:44:40 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[20-Oct-2018 09:53:23 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/front-page.php on line 15
+[20-Oct-2018 11:49:22 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/index.php on line 18
+[20-Oct-2018 17:54:56 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[20-Oct-2018 19:35:38 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/archive.php on line 13
+[20-Oct-2018 21:15:38 UTC] PHP Fatal error:  Call to undefined function esc_attr() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/searchform.php on line 13
+[20-Oct-2018 23:00:16 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/single.php on line 13
+[21-Oct-2018 16:23:16 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[09-Apr-2019 03:40:36 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[06-May-2019 12:17:03 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[06-May-2019 12:17:17 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[06-May-2019 12:17:24 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[06-May-2019 12:17:32 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[06-May-2019 12:17:51 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[09-May-2019 15:46:06 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[09-May-2019 15:46:11 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[09-May-2019 15:46:16 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[09-May-2019 15:46:25 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[09-May-2019 15:46:29 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[10-May-2019 04:01:20 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[10-May-2019 04:01:34 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[10-May-2019 04:01:40 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[10-May-2019 04:01:48 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[10-May-2019 04:02:01 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[12-May-2019 18:10:06 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[12-May-2019 18:10:09 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[12-May-2019 18:10:11 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[12-May-2019 18:10:14 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[12-May-2019 18:10:16 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[19-May-2019 03:18:45 UTC] PHP Notice:  Undefined index: wp_version in /home/smallid4/public_html/wp-content/themes/twentyseventeen/functions.php on line 15
+[19-May-2019 03:18:45 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[19-May-2019 03:19:33 UTC] PHP Notice:  Undefined index: wp_version in /home/smallid4/public_html/wp-content/themes/twentyseventeen/functions.php on line 15
+[19-May-2019 03:19:33 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[19-May-2019 03:20:22 UTC] PHP Notice:  Undefined index: wp_version in /home/smallid4/public_html/wp-content/themes/twentyseventeen/functions.php on line 15
+[19-May-2019 03:20:22 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[19-May-2019 03:21:02 UTC] PHP Notice:  Undefined index: wp_version in /home/smallid4/public_html/wp-content/themes/twentyseventeen/functions.php on line 15
+[19-May-2019 03:21:02 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[19-May-2019 03:21:53 UTC] PHP Notice:  Undefined index: wp_version in /home/smallid4/public_html/wp-content/themes/twentyseventeen/functions.php on line 15
+[19-May-2019 03:21:53 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[02-Jun-2019 20:22:18 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[03-Jun-2019 03:57:50 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[06-Jun-2019 11:40:07 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[15-Jun-2019 07:38:49 UTC] PHP Notice:  Undefined index: wp_version in /home/smallid4/public_html/wp-content/themes/twentyseventeen/functions.php on line 15
+[15-Jun-2019 07:38:49 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[01-Jul-2019 18:32:18 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[06-Jul-2019 03:50:44 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[14-Jul-2019 20:57:03 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[18-Jul-2019 07:23:28 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[18-Jul-2019 21:18:02 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[21-Jul-2019 23:44:21 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[06-Aug-2019 12:52:05 UTC] PHP Notice:  Undefined index: wp_version in /home/smallid4/public_html/wp-content/themes/twentyseventeen/functions.php on line 15
+[06-Aug-2019 12:52:05 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/smallid4/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
